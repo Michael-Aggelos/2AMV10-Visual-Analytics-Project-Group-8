@@ -16,8 +16,8 @@ data = pd.read_csv('NBA_2004_2023_Shots.csv')
 # print(data.columns)
 pd.set_option('display.max_columns', None)
 # Display one instance for each team
-teams_sample = data.groupby('TEAM_NAME').first().reset_index()
-print(teams_sample)
+# teams_sample = data.groupby('TEAM_NAME').first().reset_index()
+# print(teams_sample)
 
 
 # Player Shot Accuracy
