@@ -15,7 +15,7 @@ app = dash.Dash(__name__, suppress_callback_exceptions=True, external_stylesheet
 
 app.layout = dbc.Container([
     dcc.Location(id='url', refresh=False),
-    dbc.Row(dbc.Col(html.H1("Sotiris Poushits", className="text-center my-4"), width=12)),
+    dbc.Row(dbc.Col(html.H1("NBA Dashboard", className="text-center my-4"), width=12)),
     
     dbc.Row([
         dbc.Col(html.Label("Select Player or Team:"), width=2),
