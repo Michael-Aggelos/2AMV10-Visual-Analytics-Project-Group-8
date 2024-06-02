@@ -1,0 +1,56 @@
+body {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+h1, h3 {
+    color: #ecf0f1;
+}
+
+label {
+    color: #ecf0f1;
+}
+
+.Select-menu-outer {
+    background-color: #34495e !important;
+    color: #ecf0f1 !important;
+}
+
+.Select-control {
+    background-color: #34495e !important;
+    color: #ecf0f1 !important;
+    border: 1px solid #ecf0f1 !important;
+}
+
+.Select-placeholder {
+    color: #bdc3c7 !important;
+}
+
+.Select--multi .Select-multi-value-wrapper {
+    background-color: #34495e !important;
+}
+
+.Select-input > input {
+    color: #ecf0f1 !important;
+}
+
+.Select-value {
+    color: #ecf0f1 !important;
+}
+
+.Select-option {
+    background-color: #34495e !important;
+    color: #ecf0f1 !important;
+    border: 1px solid #ecf0f1 !important;
+}
+
+.Select-option.is-focused, .Select-option.is-selected {
+    background-color: #1abc9c !important;
+    color: #2c3e50 !important;
+}
+
+.react-select-2--value-item {
+    background-color: #34495e !important;
+    color: #ecf0f1 !important;
+}
+
