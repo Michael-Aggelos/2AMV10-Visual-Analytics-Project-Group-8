@@ -1,10 +1,13 @@
-def predict_offs(a=np.mean(X.iloc[:,0]), b=np.mean(X.iloc[:,1]), c=np.mean(X.iloc[:,2]), 
-              d=np.mean(X.iloc[:,3]), e=np.mean(X.iloc[:,4]), f=np.mean(X.iloc[:,5])):
+def predict_offs(total_2pt_made=np.mean(X.iloc[:,0]), total_2pt_attempted=np.mean(X.iloc[:,1]), total_3pt_made=np.mean(X.iloc[:,2]), 
+              total_3pt_attempted=np.mean(X.iloc[:,3]), clutch_shots_made=np.mean(X.iloc[:,4]), average_shot_distance=np.mean(X.iloc[:,5]),
+              home_performance=np.mean(X.iloc[:,6]), away_performance=np.mean(X.iloc[:,7])):
     input_data = X.iloc[:1].copy(deep=False)
-    input_data.iloc[0,0] = a
-    input_data.iloc[0,1] = b
-    input_data.iloc[0,2] = c
-    input_data.iloc[0,3] = d
-    input_data.iloc[0,4] = e
-    input_data.iloc[0,5] = f
+    input_data.iloc[0,0] = total_2pt_made
+    input_data.iloc[0,1] = total_2pt_attempted
+    input_data.iloc[0,2] = total_2pt_made
+    input_data.iloc[0,3] = total_2pt_attempted
+    input_data.iloc[0,4] = clutch_shots_made
+    input_data.iloc[0,5] = average_shot_distance
+    input_data.iloc[0,6] = home_performance
+    input_data.iloc[0,7] = away_performance
     return best_rf.predict(input_data)[0]   
