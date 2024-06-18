@@ -1,0 +1,10 @@
+def predict_offs(a=np.mean(X.iloc[:,0]), b=np.mean(X.iloc[:,1]), c=np.mean(X.iloc[:,2]), 
+              d=np.mean(X.iloc[:,3]), e=np.mean(X.iloc[:,4]), f=np.mean(X.iloc[:,5])):
+    input_data = X.iloc[:1].copy(deep=False)
+    input_data.iloc[0,0] = a
+    input_data.iloc[0,1] = b
+    input_data.iloc[0,2] = c
+    input_data.iloc[0,3] = d
+    input_data.iloc[0,4] = e
+    input_data.iloc[0,5] = f
+    return best_rf.predict(input_data)[0]   
