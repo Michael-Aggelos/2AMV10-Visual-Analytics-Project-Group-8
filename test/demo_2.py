@@ -1,5 +1,5 @@
 import dash
-from dash import dcc, html
+from dash import dcc, html, callback_context
 from dash.dependencies import Input, Output, State
 import dash_bootstrap_components as dbc
 from matplotlib import pyplot as plt
@@ -52,99 +52,123 @@ Ratio_df = pd.read_csv('2-3pt_Ratio_df.csv')
 
 ################## ^^^^^ ####################
 
+df_task1_final = pd.read_csv('task1_final.csv')
+
+nba_task4_final = pd.read_csv('task4_final.csv')
+
+
 # Initialize the main Dash app with a dark theme
 app = dash.Dash(__name__, suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.DARKLY])
 
 app.layout = dbc.Container([
-    dcc.Location(id='url', refresh=False),
-    dbc.Row(dbc.Col(html.H1("NBA Dashboard", className="text-center my-4"), width=12)),
+    dbc.Row(dbc.Col(html.H1("NBA DASHBOARD", className="text-center my-4"),width=12)),
     
     dbc.Row([
-        dbc.Col(html.Label("Select Player or Team:"), width=2),
-        dbc.Col(dcc.Dropdown(
-            id='entity-dropdown',
-            options=[
-                {'label': 'Player', 'value': 'player'},
-                {'label': 'Team', 'value': 'team'}
-            ],
-            value='player'
-        ), width=10)
-    ]),
-    
-    dbc.Row(dbc.Col(html.Div(id='conditional-content'))),
-    
-    dbc.Row(dbc.Col(html.H4('Animated 3-pts shots attempts, 3pt/2pt ratio, and bar plot  by teams in the NBA (2004-2023)', className="text-center my-4"), width=12)),
-    
-    dbc.Row([
-        dbc.Col(dcc.RadioItems(
-            id='scatter-selection',
-            options=[
-                {'label': "3-pts Attempts", 'value': '3-pts'},
-                {'label': "3pt/2pt Ratio", 'value': 'ratio'},
-                {'label': "Bar Plot", 'value': 'bar-plot'}
-            ],
-            value='3-pts',
-            inline=True
-        ), width=12)
-    ]),
-    
-    dbc.Row(dbc.Col(dcc.Loading(dcc.Graph(id="scatter-graph"), type="cube"), width=12)),
+        dbc.Col(html.Label("Select Analysis Dashboard"),style={'fontSize': 25,'justifyContent': 'center', 'color': '#FFFFFF', 'marginBottom': '20px', 'marginTop':'50px'} ),
+        # create 2 buttons for the user to select the entity to analyze
+        dbc.Row([
+            dbc.Col(dbc.Button('3PT Revolution', id='btn-3ptrevolution', n_clicks=0, color='primary', className='mr-2'), width='auto'),
+            dbc.Col(dbc.Button('Extra Player/Team Comparison', id='btn-extracomparison', n_clicks=0, color='primary', className='mr-2'), style={'marginLeft': '30px'}, width='auto')
+        ],style={'justifyContent': 'center', 'marginBottom': '20px'}),
 
-    dcc.Tab(label='Shot Charts', children=[
-                # Content from shots_app layout
-                dbc.Container([
-                    dbc.Row([
-                        dbc.Col([
-                            dbc.Row([
-                                dbc.Col(html.Label("Select Team:"), width=3),
-                                dbc.Col(dcc.Dropdown(
-                                    id='team-dropdown',
-                                    options=[{'label': name, 'value': name} for name in shots_df[team_name_column].unique()],
-                                    value=shots_df[team_name_column].iloc[0]
-                                ), width=9)
-                            ]),
-                            dbc.Row([
-                                dbc.Col(html.Label("Select Season:"), width=3),
-                                dbc.Col(dcc.Dropdown(
-                                    id='team-season-dropdown'
-                                ), width=9)
-                            ])
-                        ], md=6)   ]),
+    ],style={'textAlign': 'center', 'marginBottom': '20px'}),
+    
+    dbc.Row(dbc.Col(html.Div(id='conditional-content-main'))),
+ ], fluid=True)   
 
-                    dbc.Row([
-                        dcc.Graph(id='shot-chart-team', style={'height': '62vh', 'width' :'40%'}),
-                        dcc.Graph(id='shot-chart-2-team', style={'height': '80vh','width' :'60%'})
-                    ])
-                ], fluid=True)
-            ])
+#if entinty-dropdown-main is 3ptrevolution then add the following layout
+@app.callback(
+    Output('conditional-content-main', 'children'),
+    [Input('btn-3ptrevolution', 'n_clicks'),
+     Input('btn-extracomparison', 'n_clicks')]
+)
+def render_content(n_clicks_3ptrevolution, n_clicks_extracomparison):
+    ctx = callback_context
+
+    if not ctx.triggered:
+        button_id = 'btn-3ptrevolution'  # default button
+    else:
+        button_id = ctx.triggered[0]['prop_id'].split('.')[0]
         
-    # dbc.Row(basketball_plot.shots_app.layout),
+        
+    if button_id == 'btn-3ptrevolution':
+        return dbc.Container([
+            #Select range make it always have a range of 1 year
+            dbc.Row([
+                dbc.Col(html.Label("Select Season Range to Analyse:"),style={'fontSize': 25, 'color': '#FFFFFF', 'marginBottom': '10px'}),
+                dbc.Col(dcc.RangeSlider(
+                    id='season-slider',
+                    min=2003,
+                    max=2024,
+                    step=1,
+                    marks={i: str(i) for i in range(2003, 2025)},
+                    value=[2003, 2024],
+                    allowCross=False,
+                    pushable=1,
+                    tooltip={"placement": "bottom", "always_visible": True}
+                ), width=9)
+            ],style={'margin': '40px 20px', 'padding': '20px', 'backgroundColor': '#2c3e50', 'borderRadius': '10px'}),
+            
+            dbc.Row(dbc.Col(html.H2('NBA Teams --- 3-pt shots --- 3pt/2pt ratio --- Shots Bar plot --- FGA Percentage', className="text-center my-4"), width=12)),
 
-    # dbc.Row(basketball_plot.shots_app_team.layout),
-    # dbc.Row([
-    #     dbc.Col(html.Label("Select Player or Team:"), width=2),
-    #     dbc.Col(dcc.Dropdown(
-    #         id='entity-dropdown-plot-shot',
-    #         options=[
-    #             {'label': 'Player', 'value': 'player'},
-    #             {'label': 'Team', 'value': 'team'}
-    #         ],
-    #         value='player'
-    #     ), width=10)
-    # ])
+            dbc.Row([
+                dbc.Col(dcc.RadioItems(
+                    id='scatter-selection',
+                    options=[
+                        {'label': "3-pts Attempts", 'value': '3-pts'},
+                        {'label': "3pt/2pt Ratio", 'value': 'ratio'},
+                        {'label': "Bar Plot", 'value': 'bar-plot'},
+                        {'label': "FGA by Shot Type", 'value': 'fga-shot-type'}
+                    ],
+                    value='3-pts',
+                    labelStyle={'display': 'inline-block', 'margin-right': '30px'},
+                    inline=True,
+                ), width=12)
+            ]),
+    
+            dbc.Row(dbc.Col(dcc.Loading(dcc.Graph(id="scatter-graph"), type="cube"), width=12)),
+    
+            dbc.Row(dbc.Col(html.H2('Top Players with Highest One-Season Jumps in 3PA/FGA', className="text-center my-4"),style={'marginTop':"30px"}, width=12)),
+            
+            dbc.Row([
+                dbc.Col(html.Label("Select Number of Players:"), width=3),
+                dbc.Col(dcc.Dropdown(
+                    id='num-players-dropdown',
+                    options=[{'label': i, 'value': i} for i in range(1, 21)],
+                    value=15
+                ), width=9)
+            ]),
+            
+            dbc.Row(dbc.Col(dcc.Loading(dcc.Graph(id="3pa-jumps-bar-graph"), type="cube"), width=12)),
+
+            dbc.Row(dbc.Col(html.H2('Teams Seasonal Court Shots Plot', className="text-center my-4"), width=12)),
+
+            dcc.Tab(label='Shot Charts', children=[shots_app_team_layout()])
+        ], fluid=True)
+    elif button_id == 'btn-extracomparison':
+        return dbc.Container([
+            dbc.Row([
+                    dbc.Col(html.Label("Select Player or Team:"), width=2),
+                    dbc.Col(dcc.Dropdown(
+                        id='entity-dropdown',
+                        options=[
+                            {'label': 'Player', 'value': 'player'},
+                            {'label': 'Team', 'value': 'team'}
+                        ],
+                        value='player'
+                    ), width=10)
+                ]),
+                dbc.Row(dbc.Col(html.Div(id='conditional-content'))),
+            ])
 
 
-], fluid=True)
+    
 
-# @app.callback(
-#     Output('conditional-content-plot-shot', 'children'),
-#     Input('entity-dropdown-plot-shot', 'value')
-# )
-# def render_shot_charts(selected_entity):
-#     if selected_entity == 'player':
-#         return shots_app_player_layout()  # Define this as a function returning the layout
-#     elif selected_entity == 'team':
-#         return shots_app_team_layout()  # Define this as a function returning the layout
+
+#create a helper function to change the selected range into the correct format for the data
+def change_range(selected_range):
+    #if is for example [2004, 2024] then it will change it to 2004-05 & 2023-24
+    return f"{str(selected_range[0])}-{str(selected_range[0]+1)[2:]}", f"{str(selected_range[1]-1)}-{str(selected_range[1])[2:]}"
 
 @app.callback(
     Output('season-dropdown', 'options'),
@@ -167,9 +191,6 @@ def update_season_dropdown(selected_player_name):
     Input('team-dropdown', 'value')
 )
 def update_season_dropdown(selected_team_name):
-        #debug print
-    # print("selected_player_name")
-    # print(selected_player_name)
     if selected_team_name:
         selected_team_id = team_id_map[selected_team_name]
         seasons = shots_df[shots_df[team_id_column] == selected_team_id][season_column].unique()
@@ -255,10 +276,6 @@ def update_shot_chart(selected_player, selected_season):
     ax.xaxis.set_visible(False)
     ax.yaxis.set_visible(False)
     ax = draw_court(ax, outer_lines=True)
-    # ax.set_facecolor('none')  # Set the axes background color to 'none' (transparent)
-    # Optionally add text to the plot
-    # ax.text(240, 400, 'Blue indicates shot accuracy', horizontalalignment='right',
-    #         fontsize=12, color='black')
 
     # Show colorbar
     cb = fig.colorbar(hb, ax=ax, orientation='vertical')
@@ -368,7 +385,7 @@ def update_plot_shot(selected_team, selected_season):
 
     return fig
 
-def draw_plotly_court(fig, fig_width=600, margins=10):
+def draw_plotly_court(fig, fig_width=800, margins=0):
 
     import numpy as np
         
@@ -530,52 +547,6 @@ def draw_plotly_court(fig, fig_width=600, margins=10):
     )
     return True
 
-# def update_shot_chart(selected_team, selected_season):
-#     player_shots = shots_df[(shots_df['TEAM_NAME'] == selected_team) & (shots_df['SEASON_2'] == selected_season)]
-    
-#     fig, ax = plt.subplots(figsize=(5, 4.7))
-#     ax = draw_court(ax, outer_lines=True)
-
-#     # Plotting the scatter plot
-#     sns.scatterplot(x='LOC_X', y='LOC_Y', hue='EVENT_TYPE', data=player_shots, palette={'Missed Shot': 'red', 'Made Shot': 'green'}, s=30, ax=ax)
-
-
-#     # Hide axes
-#     ax.xaxis.set_visible(False)
-#     ax.yaxis.set_visible(False)
-
-#     # Set the limits for the axes
-#     ax.set_xlim(250, -250)
-#     ax.set_ylim(-47.5, 422.5)
-
-#     # Invert the x-axis
-#     ax.invert_xaxis()
-
-#     # Convert plot to base64 string
-#     buffer = io.BytesIO()
-#     FigureCanvas(fig).print_png(buffer)
-#     plot_data = base64.b64encode(buffer.getvalue()).decode()
-
-#     return {
-#         'data': [],
-#         'layout': {
-#             'images': [{
-#                 'source': 'data:image/png;base64,{}'.format(plot_data),
-#                 'xref': 'paper',
-#                 'yref': 'paper',
-#                 'x': 0,
-#                 'y': 1,
-#                 'sizex': 1,
-#                 'sizey': 1,
-#                 'sizing': 'contain',
-#                 'opacity': 1,
-#                 'layer': 'below'
-#             }],
-#             'xaxis': {'showgrid': False, 'zeroline': False, 'visible': False},
-#             'yaxis': {'showgrid': False, 'zeroline': False, 'visible': False},
-#         }
-#     }
-
 
 
 # Callback to update the shot chart based on selected player and date
@@ -688,32 +659,6 @@ def draw_court(ax=None, color='black', lw=2, outer_lines=False):
     return ax
 
 
-# def shots_app_player_layout():
-#     return dbc.Container([
-#         dbc.Row([
-#                 dbc.Col([
-#                     dbc.Row([
-#                         dbc.Col(html.Label("Select Player:"), width=2),
-#                         dbc.Col(dcc.Dropdown(
-#                             id='player-dropdown',
-#                             options=[{'label': name, 'value': name} for name in shots_df[player_name_column].unique()],
-#                             value=shots_df[player_name_column].iloc[0]
-#                         ), width=10)
-#                     ]),
-#                     dbc.Row([
-#                         dbc.Col(html.Label("Select Season:"), width=2),
-#                         dbc.Col(dcc.Dropdown(
-#                             id='season-dropdown'
-#                         ), width=10)
-#                     ])
-#                 ], md=6)
-#             ]),
-#             dbc.Row([
-#                 dcc.Graph(id='shot-chart', style={'height': '80vh', 'width' :'50%'}),
-#                 dcc.Graph(id='shot-chart-2', style={'height': '80vh','width' :'50%'})
-#             ])
-#     ], fluid=True)
-
 def shots_app_team_layout():
     return dbc.Container([
         dbc.Row([
@@ -810,27 +755,40 @@ def update_team_graph(selected_team_name_1, selected_season_1, selected_team_nam
 # Callback for scatter plot and line plot
 @app.callback(
     Output("scatter-graph", "figure"), 
-    Input("scatter-selection", "value")
+    Input("scatter-selection", "value"),
+    Input('season-slider', 'value')
 )
-def display_graph(selection):
+def display_graph(selection, selected_range):
+    selected_range = change_range(selected_range)
+    
     if selection == '3-pts':
+        filtered_scatter_df = scatter_df[(scatter_df['SEASON_2'] >= selected_range[0]) & (scatter_df['SEASON_2'] <= selected_range[1])]
         fig = px.scatter(
-            scatter_df, x="total_3pt_attempted", y="total_shots_attempted", color="conference", 
+            filtered_scatter_df, x="total_3pt_attempted", y="total_shots_attempted", color="conference", 
             animation_frame="SEASON_2", animation_group="TEAM_NAME", size="total_3pt_made", hover_data=["TEAM_NAME"],
             range_x=[0,4000], range_y=[4000,8200])
     elif selection == 'ratio':
+        filtered_ratio_df = Ratio_df[(Ratio_df['SEASON_2'] >= selected_range[0]) & (Ratio_df['SEASON_2'] <= selected_range[1])]
         fig = px.line(
-            Ratio_df, x="SEASON_2", y="3pt2pt_attempts_ratio", markers=True,
+            filtered_ratio_df, x="SEASON_2", y="3pt2pt_attempts_ratio", markers=True,
             labels={'3pt2pt_attempts_ratio': '3pt/2pt Attempts Ratio', 'SEASON_2': 'Season'},
             title=f'3pt/2pt Attempts Ratio Over Seasons (2004-2023)')
         fig.update_xaxes(type='category')
         fig.update_traces(mode='lines+markers', hovertemplate='Season: %{x}<br>Ratio: %{y:.2f}')
     elif selection == 'bar-plot':
-        fig = px.bar(bar_df, x="TEAM_NAME", y="Total Shots", color="Shot Type",
+        filtered_bar_df = bar_df[(bar_df['SEASON_2'] >= selected_range[0]) & (bar_df['SEASON_2'] <= selected_range[1])]
+        fig = px.bar(filtered_bar_df, x="TEAM_NAME", y="Total Shots", color="Shot Type",
                      barmode='group', animation_frame="SEASON_2",
                      title="Bar Plot of Total Shots (2pts, 3pts, Total) by Teams Over Seasons")
         fig.update_xaxes(tickangle=45, tickmode='linear', dtick=1)
         fig.update_yaxes(range=[0, 8500])
+    elif selection == 'fga-shot-type':
+        filtered_task1_final_df = df_task1_final[(df_task1_final['SEASON_2'] >= selected_range[0]) & (df_task1_final['SEASON_2'] <= selected_range[1])]
+        fig = px.line(filtered_task1_final_df, x='SEASON_2', y='FGA_percentage', color='BASIC_ZONE',
+            labels={'SEASON_2': 'Season', 'FGA_percentage': 'Percentage of FGA', 'BASIC_ZONE': 'Zone'},
+            title='League-wide Percentage of FGA by Shot Type')
+        fig.update_xaxes(type='category')
+        fig.update_traces(mode='lines+markers', hovertemplate='Season: %{x}<br>FGA: %{y}')
 
     fig.update_layout(
         paper_bgcolor='#2c3e50',
@@ -842,6 +800,54 @@ def display_graph(selection):
     
     return fig
 
+
+# Include the callback for the new visualization
+@app.callback(
+    Output('3pa-jumps-bar-graph', 'figure'),
+    Input('num-players-dropdown', 'value'),
+    Input('season-slider', 'value')
+)
+def update_3pa_jumps_bar_graph(num_players, selected_range):
+    selected_range = change_range(selected_range)
+    # Sort the dataframe by the 3PA_jump column in descending order and select the top 'num_players'
+    # sorted_df = nba_task4_final.sort_values(by='3PA_jump', ascending=False).head(num_players)
+    filtered_sorted_df = nba_task4_final[(nba_task4_final['SEASON_2'] >= selected_range[0]) & (nba_task4_final['SEASON_2'] <= selected_range[1])]
+    filtered_sorted_df = filtered_sorted_df.sort_values(by='3PA_jump', ascending=False).head(num_players)
+    
+    
+    fig = px.bar(
+        filtered_sorted_df,
+        x='3PA_jump',
+        y='PLAYER_NAME',
+        orientation='h',
+        text='3PA_jump',
+        labels={
+            '3PA_jump': 'Percentage Jump in 3PA/FGA',
+            'PLAYER_NAME': 'Player Name',
+            'SEASON_2': 'Season',
+            'prev_SEASON_2': 'Previous Season',
+            'prev_3PA_percentage': 'Previous Season 3PA%',
+            '3PA_percentage': 'Current Season 3PA%'
+        },
+        hover_data={
+            'SEASON_2': True,  # Show season in hover data
+            '3PA_jump': ':.2f'
+        }
+    )
+    
+    # Annotate the bars with the percentage jump values
+    fig.update_traces(texttemplate='%{text:.2f}', textposition='outside')
+    fig.update_layout(yaxis={'categoryorder':'total ascending'})
+    
+    fig.update_layout(
+        paper_bgcolor='#2c3e50',
+        plot_bgcolor='#2c3e50',
+        font=dict(color='#ecf0f1'),
+        xaxis_tickfont_size=10,
+        xaxis_categoryorder='category ascending'
+    )
+    
+    return fig
 
 
 if __name__ == '__main__':
