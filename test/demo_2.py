@@ -172,17 +172,11 @@ def render_content(n_clicks_3ptrevolution, n_clicks_extracomparison):
 
             dbc.Row(dbc.Col(html.H2('Feature Importance Plot - Offensive Rating Prediction', className="text-center my-4"),style={'marginTop':"30px"}, width=12)),
             
-            dbc.Row([
-                dbc.Col(
-                    dcc.Input(id="input-3ptmade_value", type="text", placeholder="Enter text", style={'width': '100%'}), width=12)
-            ]),
-            
             dbc.Row(dbc.Col(dcc.Loading(dcc.Graph(id="feature_importance"), type="cube"), width=12)),
 
-            dbc.Row(dbc.Col(dcc.Loading(dcc.Graph(id="predicted_offRating"), type="cube"), width=12)),
-
-            ################################################################
+                        ################################################################
             dbc.Row([
+                dbc.Col(html.Label("Edit Feature values to obtain a new Offensive Rating:"),style={'fontSize': 20, 'color': '#FFFFFF', 'marginTop': '30px', 'marginBottom': '10px'}, width=5),
                 dbc.Col(
                     dbc.Checklist(
                         options=options,
@@ -205,8 +199,12 @@ def render_content(n_clicks_3ptrevolution, n_clicks_extracomparison):
                     html.Div(id='output-div'),
                     width=12
                 )
-            ])
+            ]),
             ################################################################
+
+            dbc.Row(dbc.Col(dcc.Loading(dcc.Graph(id="predicted_offRating"), type="cube"), width=12)),
+
+
 
         ], fluid=True)
     
@@ -1003,7 +1001,6 @@ grid_search_rf.fit(X_train, y_train)
 
 #Get the best model
 best_rf = grid_search_rf.best_estimator_
-print('Best model:', best_rf)
 #####################################################################################################################
 
 @app.callback(
@@ -1025,7 +1022,7 @@ def update_predicted_offRating(n_clicks, selected_options, input_values, input_i
     average_shot_distance=np.mean(X.iloc[:,5])
     home_performance=np.mean(X.iloc[:,6])
     away_performance=np.mean(X.iloc[:,7])
-    print('pushtarapis', total_3pt_made)
+
     if n_clicks > 0:
         input_values_dict = {id['index']: val for id, val in zip(input_ids, input_values)}
         for option in selected_options:
@@ -1047,7 +1044,6 @@ def update_predicted_offRating(n_clicks, selected_options, input_values, input_i
                     total_2pt_attempted = value
                 elif option == 'total_3pt_made':
                     total_3pt_made = value
-                    print('o misos en mesa')
                 elif option == 'total_3pt_attempted':
                     total_3pt_attempted = value
                 elif option == 'clutch_shots_made':
@@ -1064,8 +1060,6 @@ def update_predicted_offRating(n_clicks, selected_options, input_values, input_i
 
             print(f'Option: {option}, Text: {value}')
 
-
-    print('yo wassup', total_3pt_made)
 
 
     # X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
@@ -1099,7 +1093,6 @@ def update_predicted_offRating(n_clicks, selected_options, input_values, input_i
     input_data.iloc[0,6] = home_performance
     input_data.iloc[0,7] = away_performance
 
-    print('developers',input_data.iloc[0,2])
 
     teams_average_offensive_rating = df_ml.groupby('TEAM_NAME')['Offensive rating'].mean().reset_index()
     teams_average_offensive_rating = teams_average_offensive_rating._append({'TEAM_NAME': 'User Team', 'Offensive rating': best_rf.predict(input_data)[0]}, ignore_index=True)
