@@ -1,6 +1,6 @@
 import dash
 from dash import dcc, html, callback_context
-from dash.dependencies import Input, Output, State
+from dash.dependencies import Input, Output, State, ALL, MATCH
 import dash_bootstrap_components as dbc
 from matplotlib import pyplot as plt
 import numpy as np
@@ -13,11 +13,18 @@ import base64
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 import io
 import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error
+from sklearn.model_selection import GridSearchCV
+from PyALE import ale
+from sklearn.inspection import permutation_importance
+from sklearn.ensemble import RandomForestRegressor
 
 # Load the team CSV file for scatter plot
 scatter_df = pd.read_csv('NBA_Teams_with_Conference.csv')
 
-grouped = pd.read_csv('NBA_Team_Zone_Aggregated_Shots_2.csv')
+grouped = pd.read_csv('NBA_Team_Zone_Aggregated_Shots_2023.csv')
+
 # Create the DataFrame for the bar plot
 bar_df = pd.read_csv('barplot_df.csv')
 
@@ -52,13 +59,31 @@ Ratio_df = pd.read_csv('2-3pt_Ratio_df.csv')
 
 ################## ^^^^^ ####################
 
-df_task1_final = pd.read_csv('task1_final.csv')
+df_task1_final = pd.read_csv('FGA_Percentage_2023.csv')
 
-nba_task4_final = pd.read_csv('task4_final.csv')
+nba_task4_final = pd.read_csv('3PT_Jumps_2023.csv')
+
+df_ml = pd.read_csv('Team stats complete incl offrts.csv')
+# drop rows with null values
+# df_og = df_og.dropna().reset_index().drop(['index', 'Unnamed: 0'], axis=1)
+# #save the adjusted data to an updated csv file
+# df_og.to_csv('Team stats complete incl offrts.csv', index=False)
 
 
 # Initialize the main Dash app with a dark theme
 app = dash.Dash(__name__, suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.DARKLY])
+
+options = [
+    {'label': 'Total 2pt Made', 'value': 'total_2pt_made'},
+    {'label': 'Total 2pt Attempted', 'value': 'total_2pt_attempted'},
+    {'label': 'Total 3pt Made', 'value': 'total_3pt_made'},
+    {'label': 'Total 3pt Attempted', 'value': 'total_3pt_attempted'},
+    {'label': 'Clutch Shots Made', 'value': 'clutch_shots_made'},
+    {'label': 'Average Shot distance', 'value': 'average_shot_distance'},
+    {'label': 'Home Performance', 'value': 'home_performance'},
+    {'label': 'Away Performance', 'value': 'away_performance'}
+]
+
 
 app.layout = dbc.Container([
     dbc.Row(dbc.Col(html.H1("NBA DASHBOARD", className="text-center my-4"),width=12)),
@@ -99,10 +124,10 @@ def render_content(n_clicks_3ptrevolution, n_clicks_extracomparison):
                 dbc.Col(dcc.RangeSlider(
                     id='season-slider',
                     min=2003,
-                    max=2024,
+                    max=2023,
                     step=1,
-                    marks={i: str(i) for i in range(2003, 2025)},
-                    value=[2003, 2024],
+                    marks={i: str(i) for i in range(2003, 2024)},
+                    value=[2003, 2023],
                     allowCross=False,
                     pushable=1,
                     tooltip={"placement": "bottom", "always_visible": True}
@@ -143,8 +168,49 @@ def render_content(n_clicks_3ptrevolution, n_clicks_extracomparison):
 
             dbc.Row(dbc.Col(html.H2('Teams Seasonal Court Shots Plot', className="text-center my-4"), width=12)),
 
-            dcc.Tab(label='Shot Charts', children=[shots_app_team_layout()])
+            dcc.Tab(label='Shot Charts', children=[shots_app_team_layout()]),
+
+            dbc.Row(dbc.Col(html.H2('Feature Importance Plot - Offensive Rating Prediction', className="text-center my-4"),style={'marginTop':"30px"}, width=12)),
+            
+            dbc.Row([
+                dbc.Col(
+                    dcc.Input(id="input-3ptmade_value", type="text", placeholder="Enter text", style={'width': '100%'}), width=12)
+            ]),
+            
+            dbc.Row(dbc.Col(dcc.Loading(dcc.Graph(id="feature_importance"), type="cube"), width=12)),
+
+            dbc.Row(dbc.Col(dcc.Loading(dcc.Graph(id="predicted_offRating"), type="cube"), width=12)),
+
+            ################################################################
+            dbc.Row([
+                dbc.Col(
+                    dbc.Checklist(
+                        options=options,
+                        value=[],
+                        id='options-checklist',
+                        inline=True
+                    ),
+                    width=12
+                )
+            ]),
+            html.Div(id='dynamic-inputs'),
+            dbc.Row([
+                dbc.Col(
+                    dbc.Button('Submit', id='submit-button', n_clicks=0),
+                    width=12
+                )
+            ]),
+            dbc.Row([
+                dbc.Col(
+                    html.Div(id='output-div'),
+                    width=12
+                )
+            ])
+            ################################################################
+
         ], fluid=True)
+    
+
     elif button_id == 'btn-extracomparison':
         return dbc.Container([
             dbc.Row([
@@ -167,7 +233,7 @@ def render_content(n_clicks_3ptrevolution, n_clicks_extracomparison):
 
 #create a helper function to change the selected range into the correct format for the data
 def change_range(selected_range):
-    #if is for example [2004, 2024] then it will change it to 2004-05 & 2023-24
+    #if is for example [2004, 2023] then it will change it to 2004-05 & 2022-23
     return f"{str(selected_range[0])}-{str(selected_range[0]+1)[2:]}", f"{str(selected_range[1]-1)}-{str(selected_range[1])[2:]}"
 
 @app.callback(
@@ -848,6 +914,240 @@ def update_3pa_jumps_bar_graph(num_players, selected_range):
     )
     
     return fig
+
+
+@app.callback(
+    Output('feature_importance', 'figure'),
+    Input('season-slider', 'value')
+)
+def update_feature_importance(selected_range):
+    selected_range = change_range(selected_range)
+    rf_df = df_ml[(df_ml['SEASON_2'] >= selected_range[0]) & (df_ml['SEASON_2'] <= selected_range[1])].dropna()
+
+    X = rf_df.drop(['SEASON_2', 'TEAM_NAME', 'Offensive rating','total_shots_made', 'total_shots_attempted'], axis=1)
+    y = rf_df['Offensive rating']
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+
+    rf = RandomForestRegressor()
+
+    # Define the parameter grid to search
+    param_grid_rf = {
+        'n_estimators': [50, 100, 200],
+        'max_depth': [None, 10, 20],
+        'min_samples_split': [2, 5, 10],
+        'min_samples_leaf': [1, 2, 4]
+    }
+
+    #Create the GridSearchCV object
+    grid_search_rf = GridSearchCV(estimator=rf, param_grid=param_grid_rf, scoring='neg_mean_squared_error', cv=2)
+
+    #Fit the grid search to the data
+    grid_search_rf.fit(X_train, y_train)
+
+    #Get the best model
+    best_rf = grid_search_rf.best_estimator_
+
+    #Get the feature importances
+    feature_importances = best_rf.feature_importances_
+
+    #Create a dataframe to store the feature importances
+    feature_importances_df = pd.DataFrame({'Feature': X.columns, 'Importance': feature_importances})
+
+    #Sort the dataframe by importance
+    feature_importances_df = feature_importances_df.sort_values(by='Importance', ascending=True)
+
+    fig = px.bar(
+        feature_importances_df,
+        x='Importance',
+        y='Feature',
+        orientation='h',
+        labels={
+            'Importance': 'Feature Importance',
+            'Feature': 'Feature'
+        }
+    )
+
+    fig.update_layout(
+        paper_bgcolor='#2c3e50',
+        plot_bgcolor='#2c3e50',
+        font=dict(color='#ecf0f1'),
+        xaxis_tickfont_size=10,
+        xaxis_categoryorder='total ascending'
+    )
+
+    return fig
+
+
+######################  ML TESTING  ############################
+X = df_ml.drop(['SEASON_2', 'TEAM_NAME', 'Offensive rating','total_shots_made', 'total_shots_attempted'], axis=1)
+y = df_ml['Offensive rating']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+
+rf = RandomForestRegressor()
+
+# Define the parameter grid to search
+param_grid_rf = {
+    'n_estimators': [50, 100, 200],
+    'max_depth': [None, 10, 20],
+    'min_samples_split': [2, 5, 10],
+    'min_samples_leaf': [1, 2, 4]
+}
+
+#Create the GridSearchCV object
+grid_search_rf = GridSearchCV(estimator=rf, param_grid=param_grid_rf, scoring='neg_mean_squared_error', cv=2)
+
+#Fit the grid search to the data
+grid_search_rf.fit(X_train, y_train)
+
+#Get the best model
+best_rf = grid_search_rf.best_estimator_
+print('Best model:', best_rf)
+#####################################################################################################################
+
+@app.callback(
+    Output('predicted_offRating', 'figure'),
+    Input('submit-button', 'n_clicks'),
+    State('options-checklist', 'value'),
+    State({'type': 'dynamic-input', 'index': ALL}, 'value'),
+    State({'type': 'dynamic-input', 'index': ALL}, 'id')
+)
+def update_predicted_offRating(n_clicks, selected_options, input_values, input_ids):  
+    # X = df_ml.drop(['SEASON_2', 'TEAM_NAME', 'Offensive rating','total_shots_made', 'total_shots_attempted'], axis=1)
+    # y = df_ml['Offensive rating']
+
+    total_2pt_made=np.mean(X.iloc[:,0])
+    total_2pt_attempted=np.mean(X.iloc[:,1])
+    total_3pt_made=np.mean(X.iloc[:,2])
+    total_3pt_attempted=np.mean(X.iloc[:,3])
+    clutch_shots_made=np.mean(X.iloc[:,4])
+    average_shot_distance=np.mean(X.iloc[:,5])
+    home_performance=np.mean(X.iloc[:,6])
+    away_performance=np.mean(X.iloc[:,7])
+    print('pushtarapis', total_3pt_made)
+    if n_clicks > 0:
+        input_values_dict = {id['index']: val for id, val in zip(input_ids, input_values)}
+        for option in selected_options:
+            value = input_values_dict.get(option, 'None')
+            print('value', value )
+            print('option', option)
+            if (value.replace('.','',1).isdigit()):
+                value = float(value)
+            else:
+                continue
+            if ((value < 1000) & (value >= 0)):
+                print('value 2', value )
+                print('option 2', option)
+                value = float(value)
+                print('value 3', value )
+                if option == 'total_2pt_made':
+                    total_2pt_made = value
+                elif option == 'total_2pt_attempted':
+                    total_2pt_attempted = value
+                elif option == 'total_3pt_made':
+                    total_3pt_made = value
+                    print('o misos en mesa')
+                elif option == 'total_3pt_attempted':
+                    total_3pt_attempted = value
+                elif option == 'clutch_shots_made':
+                    clutch_shots_made = value
+                elif option == 'average_shot_distance':
+                    average_shot_distance = value
+                elif option == 'home_performance':
+                    home_performance = value
+                elif option == 'away_performance':
+                    away_performance = value
+                else:
+                    print(f'Error at option: {option}')               
+
+
+            print(f'Option: {option}, Text: {value}')
+
+
+    print('yo wassup', total_3pt_made)
+
+
+    # X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+
+    # rf = RandomForestRegressor()
+
+    # # Define the parameter grid to search
+    # param_grid_rf = {
+    #     'n_estimators': [50, 100, 200],
+    #     'max_depth': [None, 10, 20],
+    #     'min_samples_split': [2, 5, 10],
+    #     'min_samples_leaf': [1, 2, 4]
+    # }
+
+    # #Create the GridSearchCV object
+    # grid_search_rf = GridSearchCV(estimator=rf, param_grid=param_grid_rf, scoring='neg_mean_squared_error', cv=2)
+
+    # #Fit the grid search to the data
+    # grid_search_rf.fit(X_train, y_train)
+
+    # #Get the best model
+    # best_rf = grid_search_rf.best_estimator_
+
+    input_data = X.iloc[:1].copy(deep=False)
+    input_data.iloc[0,0] = total_2pt_made
+    input_data.iloc[0,1] = total_2pt_attempted
+    input_data.iloc[0,2] = total_3pt_made
+    input_data.iloc[0,3] = total_3pt_attempted
+    input_data.iloc[0,4] = clutch_shots_made
+    input_data.iloc[0,5] = average_shot_distance
+    input_data.iloc[0,6] = home_performance
+    input_data.iloc[0,7] = away_performance
+
+    print('developers',input_data.iloc[0,2])
+
+    teams_average_offensive_rating = df_ml.groupby('TEAM_NAME')['Offensive rating'].mean().reset_index()
+    teams_average_offensive_rating = teams_average_offensive_rating._append({'TEAM_NAME': 'User Team', 'Offensive rating': best_rf.predict(input_data)[0]}, ignore_index=True)
+
+    # Create a color column where all teams are one color, except 'Users Team'
+    teams_average_offensive_rating['color'] = ['User Team' if team == 'User Team' else 'Other Teams' for team in teams_average_offensive_rating['TEAM_NAME']]
+
+# Create the bar plot
+    fig = px.bar(teams_average_offensive_rating, x='TEAM_NAME', y='Offensive rating', color='color', 
+            color_discrete_map={'User Team': 'red', 'Other Teams': 'blue'},
+            title='Teams average offensive rating')
+    fig.update_yaxes(range=[80, 120])
+    
+    fig.update_layout(
+        paper_bgcolor='#2c3e50',
+        plot_bgcolor='#2c3e50',
+        font=dict(color='#ecf0f1'),
+        xaxis_tickfont_size=10,
+        xaxis_categoryorder='total ascending'
+    )
+
+    return fig
+
+
+################ giorkos ################
+@app.callback(
+    Output('dynamic-inputs', 'children'),
+    Input('options-checklist', 'value')
+)
+def display_inputs(selected_options):
+    rows = []
+    for opt in options:
+        if opt['value'] in selected_options:
+            rows.append(
+                dbc.Row([
+                    dbc.Col(
+                        dbc.Label(opt['label']),
+                        width=2
+                    ),
+                    dbc.Col(
+                        dcc.Input(id={'type': 'dynamic-input', 'index': opt["value"]}, type='text', placeholder=f'Enter value for {opt["label"]}', style={'width': '100%'}),
+                        width=10
+                    )
+                ], style={'marginBottom': '10px'})
+            )
+    return rows
+
+############################################
 
 
 if __name__ == '__main__':
