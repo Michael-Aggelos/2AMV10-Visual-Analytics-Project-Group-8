@@ -70,6 +70,35 @@ df_ml = pd.read_csv('Team stats complete incl offrts.csv')
 # df_og.to_csv('Team stats complete incl offrts.csv', index=False)
 
 
+######################  ML TESTING FOR OFFENSIVE RATING PLOT  ############################
+X = df_ml.drop(['SEASON_2', 'TEAM_NAME', 'Offensive rating','total_shots_made', 'total_shots_attempted'], axis=1)
+y = df_ml['Offensive rating']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+
+rf = RandomForestRegressor()
+
+# Define the parameter grid to search
+param_grid_rf = {
+    'n_estimators': [50, 100, 200],
+    'max_depth': [None, 10, 20],
+    'min_samples_split': [2, 5, 10],
+    'min_samples_leaf': [1, 2, 4]
+}
+
+#Create the GridSearchCV object
+grid_search_rf = GridSearchCV(estimator=rf, param_grid=param_grid_rf, scoring='neg_mean_squared_error', cv=2)
+
+#Fit the grid search to the data
+grid_search_rf.fit(X_train, y_train)
+
+#Get the best model
+best_rf = grid_search_rf.best_estimator_
+#####################################################################################################################
+
+
+
+
 # Initialize the main Dash app with a dark theme
 app = dash.Dash(__name__, suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.DARKLY])
 
@@ -449,7 +478,7 @@ def update_plot_shot(selected_team, selected_season):
 
     return fig
 
-def draw_plotly_court(fig, fig_width=800, margins=0):
+def draw_plotly_court(fig, fig_width=600, margins=1):
 
     import numpy as np
         
@@ -977,31 +1006,7 @@ def update_feature_importance(selected_range):
     return fig
 
 
-######################  ML TESTING  ############################
-X = df_ml.drop(['SEASON_2', 'TEAM_NAME', 'Offensive rating','total_shots_made', 'total_shots_attempted'], axis=1)
-y = df_ml['Offensive rating']
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
-
-rf = RandomForestRegressor()
-
-# Define the parameter grid to search
-param_grid_rf = {
-    'n_estimators': [50, 100, 200],
-    'max_depth': [None, 10, 20],
-    'min_samples_split': [2, 5, 10],
-    'min_samples_leaf': [1, 2, 4]
-}
-
-#Create the GridSearchCV object
-grid_search_rf = GridSearchCV(estimator=rf, param_grid=param_grid_rf, scoring='neg_mean_squared_error', cv=2)
-
-#Fit the grid search to the data
-grid_search_rf.fit(X_train, y_train)
-
-#Get the best model
-best_rf = grid_search_rf.best_estimator_
-#####################################################################################################################
 
 @app.callback(
     Output('predicted_offRating', 'figure'),
@@ -1027,17 +1032,12 @@ def update_predicted_offRating(n_clicks, selected_options, input_values, input_i
         input_values_dict = {id['index']: val for id, val in zip(input_ids, input_values)}
         for option in selected_options:
             value = input_values_dict.get(option, 'None')
-            print('value', value )
-            print('option', option)
             if (value.replace('.','',1).isdigit()):
                 value = float(value)
             else:
                 continue
             if ((value < 1000) & (value >= 0)):
-                print('value 2', value )
-                print('option 2', option)
                 value = float(value)
-                print('value 3', value )
                 if option == 'total_2pt_made':
                     total_2pt_made = value
                 elif option == 'total_2pt_attempted':
@@ -1057,8 +1057,6 @@ def update_predicted_offRating(n_clicks, selected_options, input_values, input_i
                 else:
                     print(f'Error at option: {option}')               
 
-
-            print(f'Option: {option}, Text: {value}')
 
 
 
@@ -1104,7 +1102,7 @@ def update_predicted_offRating(n_clicks, selected_options, input_values, input_i
     fig = px.bar(teams_average_offensive_rating, x='TEAM_NAME', y='Offensive rating', color='color', 
             color_discrete_map={'User Team': 'red', 'Other Teams': 'blue'},
             title='Teams average offensive rating')
-    fig.update_yaxes(range=[80, 120])
+    fig.update_yaxes(range=[90, 120])
     
     fig.update_layout(
         paper_bgcolor='#2c3e50',
@@ -1117,7 +1115,7 @@ def update_predicted_offRating(n_clicks, selected_options, input_values, input_i
     return fig
 
 
-################ giorkos ################
+################ feature options ################
 @app.callback(
     Output('dynamic-inputs', 'children'),
     Input('options-checklist', 'value')
