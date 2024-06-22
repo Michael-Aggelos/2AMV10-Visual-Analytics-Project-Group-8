@@ -1,0 +1,1798 @@
+SEASON_2,TEAM_NAME,Shot Type,Total Shots
+2003-04,Atlanta Hawks,total_2pt_attempted,5280
+2004-05,Atlanta Hawks,total_2pt_attempted,5699
+2005-06,Atlanta Hawks,total_2pt_attempted,5342
+2006-07,Atlanta Hawks,total_2pt_attempted,5334
+2007-08,Atlanta Hawks,total_2pt_attempted,5474
+2008-09,Atlanta Hawks,total_2pt_attempted,4818
+2009-10,Atlanta Hawks,total_2pt_attempted,5346
+2010-11,Atlanta Hawks,total_2pt_attempted,5002
+2011-12,Atlanta Hawks,total_2pt_attempted,4018
+2012-13,Atlanta Hawks,total_2pt_attempted,4743
+2013-14,Atlanta Hawks,total_2pt_attempted,4572
+2014-15,Atlanta Hawks,total_2pt_attempted,4547
+2015-16,Atlanta Hawks,total_2pt_attempted,4597
+2016-17,Atlanta Hawks,total_2pt_attempted,4781
+2017-18,Atlanta Hawks,total_2pt_attempted,4471
+2018-19,Atlanta Hawks,total_2pt_attempted,4490
+2019-20,Atlanta Hawks,total_2pt_attempted,3651
+2020-21,Atlanta Hawks,total_2pt_attempted,3879
+2021-22,Atlanta Hawks,total_2pt_attempted,4420
+2022-23,Atlanta Hawks,total_2pt_attempted,5069
+2003-04,Boston Celtics,total_2pt_attempted,4816
+2004-05,Boston Celtics,total_2pt_attempted,5259
+2005-06,Boston Celtics,total_2pt_attempted,5032
+2006-07,Boston Celtics,total_2pt_attempted,5171
+2007-08,Boston Celtics,total_2pt_attempted,4722
+2008-09,Boston Celtics,total_2pt_attempted,4978
+2009-10,Boston Celtics,total_2pt_attempted,4861
+2010-11,Boston Celtics,total_2pt_attempted,5100
+2011-12,Boston Celtics,total_2pt_attempted,4098
+2012-13,Boston Celtics,total_2pt_attempted,5069
+2013-14,Boston Celtics,total_2pt_attempted,5154
+2014-15,Boston Celtics,total_2pt_attempted,5190
+2015-16,Boston Celtics,total_2pt_attempted,5176
+2016-17,Boston Celtics,total_2pt_attempted,4236
+2017-18,Boston Celtics,total_2pt_attempted,4483
+2018-19,Boston Celtics,total_2pt_attempted,4594
+2019-20,Boston Celtics,total_2pt_attempted,3961
+2020-21,Boston Celtics,total_2pt_attempted,3783
+2021-22,Boston Celtics,total_2pt_attempted,4123
+2022-23,Boston Celtics,total_2pt_attempted,3786
+2012-13,Brooklyn Nets,total_2pt_attempted,4784
+2013-14,Brooklyn Nets,total_2pt_attempted,4469
+2014-15,Brooklyn Nets,total_2pt_attempted,5171
+2015-16,Brooklyn Nets,total_2pt_attempted,5412
+2016-17,Brooklyn Nets,total_2pt_attempted,4395
+2017-18,Brooklyn Nets,total_2pt_attempted,4190
+2018-19,Brooklyn Nets,total_2pt_attempted,4393
+2019-20,Brooklyn Nets,total_2pt_attempted,3752
+2020-21,Brooklyn Nets,total_2pt_attempted,3689
+2021-22,Brooklyn Nets,total_2pt_attempted,4649
+2022-23,Brooklyn Nets,total_2pt_attempted,4207
+2004-05,Charlotte Bobcats,total_2pt_attempted,5978
+2005-06,Charlotte Bobcats,total_2pt_attempted,5582
+2006-07,Charlotte Bobcats,total_2pt_attempted,5363
+2007-08,Charlotte Bobcats,total_2pt_attempted,5111
+2008-09,Charlotte Bobcats,total_2pt_attempted,4960
+2009-10,Charlotte Bobcats,total_2pt_attempted,4975
+2010-11,Charlotte Bobcats,total_2pt_attempted,5162
+2011-12,Charlotte Bobcats,total_2pt_attempted,4401
+2012-13,Charlotte Bobcats,total_2pt_attempted,5250
+2013-14,Charlotte Bobcats,total_2pt_attempted,5259
+2014-15,Charlotte Hornets,total_2pt_attempted,5366
+2015-16,Charlotte Hornets,total_2pt_attempted,4512
+2016-17,Charlotte Hornets,total_2pt_attempted,4653
+2017-18,Charlotte Hornets,total_2pt_attempted,4873
+2018-19,Charlotte Hornets,total_2pt_attempted,4579
+2019-20,Charlotte Hornets,total_2pt_attempted,3355
+2020-21,Charlotte Hornets,total_2pt_attempted,3658
+2021-22,Charlotte Hornets,total_2pt_attempted,4367
+2022-23,Charlotte Hornets,total_2pt_attempted,4744
+2003-04,Chicago Bulls,total_2pt_attempted,5497
+2004-05,Chicago Bulls,total_2pt_attempted,5159
+2005-06,Chicago Bulls,total_2pt_attempted,5260
+2006-07,Chicago Bulls,total_2pt_attempted,5426
+2007-08,Chicago Bulls,total_2pt_attempted,5556
+2008-09,Chicago Bulls,total_2pt_attempted,5553
+2009-10,Chicago Bulls,total_2pt_attempted,5759
+2010-11,Chicago Bulls,total_2pt_attempted,5172
+2011-12,Chicago Bulls,total_2pt_attempted,4345
+2012-13,Chicago Bulls,total_2pt_attempted,5433
+2013-14,Chicago Bulls,total_2pt_attempted,5118
+2014-15,Chicago Bulls,total_2pt_attempted,4972
+2015-16,Chicago Bulls,total_2pt_attempted,5417
+2016-17,Chicago Bulls,total_2pt_attempted,5310
+2017-18,Chicago Bulls,total_2pt_attempted,4736
+2018-19,Chicago Bulls,total_2pt_attempted,5082
+2019-20,Chicago Bulls,total_2pt_attempted,3480
+2020-21,Chicago Bulls,total_2pt_attempted,3934
+2021-22,Chicago Bulls,total_2pt_attempted,4763
+2022-23,Chicago Bulls,total_2pt_attempted,4749
+2003-04,Cleveland Cavaliers,total_2pt_attempted,5967
+2004-05,Cleveland Cavaliers,total_2pt_attempted,5783
+2005-06,Cleveland Cavaliers,total_2pt_attempted,4947
+2006-07,Cleveland Cavaliers,total_2pt_attempted,5254
+2007-08,Cleveland Cavaliers,total_2pt_attempted,5153
+2008-09,Cleveland Cavaliers,total_2pt_attempted,4784
+2009-10,Cleveland Cavaliers,total_2pt_attempted,4809
+2010-11,Cleveland Cavaliers,total_2pt_attempted,5158
+2011-12,Cleveland Cavaliers,total_2pt_attempted,4087
+2012-13,Cleveland Cavaliers,total_2pt_attempted,5320
+2013-14,Cleveland Cavaliers,total_2pt_attempted,5315
+2014-15,Cleveland Cavaliers,total_2pt_attempted,4486
+2015-16,Cleveland Cavaliers,total_2pt_attempted,4460
+2016-17,Cleveland Cavaliers,total_2pt_attempted,4184
+2017-18,Cleveland Cavaliers,total_2pt_attempted,4314
+2018-19,Cleveland Cavaliers,total_2pt_attempted,4796
+2019-20,Cleveland Cavaliers,total_2pt_attempted,3645
+2020-21,Cleveland Cavaliers,total_2pt_attempted,4034
+2021-22,Cleveland Cavaliers,total_2pt_attempted,4254
+2022-23,Cleveland Cavaliers,total_2pt_attempted,4395
+2003-04,Dallas Mavericks,total_2pt_attempted,5774
+2004-05,Dallas Mavericks,total_2pt_attempted,5418
+2005-06,Dallas Mavericks,total_2pt_attempted,5262
+2006-07,Dallas Mavericks,total_2pt_attempted,5038
+2007-08,Dallas Mavericks,total_2pt_attempted,5112
+2008-09,Dallas Mavericks,total_2pt_attempted,5138
+2009-10,Dallas Mavericks,total_2pt_attempted,5262
+2010-11,Dallas Mavericks,total_2pt_attempted,4695
+2011-12,Dallas Mavericks,total_2pt_attempted,3948
+2012-13,Dallas Mavericks,total_2pt_attempted,5264
+2013-14,Dallas Mavericks,total_2pt_attempted,4981
+2014-15,Dallas Mavericks,total_2pt_attempted,4954
+2015-16,Dallas Mavericks,total_2pt_attempted,4558
+2016-17,Dallas Mavericks,total_2pt_attempted,4277
+2017-18,Dallas Mavericks,total_2pt_attempted,4354
+2018-19,Dallas Mavericks,total_2pt_attempted,4120
+2019-20,Dallas Mavericks,total_2pt_attempted,3677
+2020-21,Dallas Mavericks,total_2pt_attempted,3543
+2021-22,Dallas Mavericks,total_2pt_attempted,3919
+2022-23,Dallas Mavericks,total_2pt_attempted,3547
+2003-04,Denver Nuggets,total_2pt_attempted,5778
+2004-05,Denver Nuggets,total_2pt_attempted,5675
+2005-06,Denver Nuggets,total_2pt_attempted,5596
+2006-07,Denver Nuggets,total_2pt_attempted,5365
+2007-08,Denver Nuggets,total_2pt_attempted,5433
+2008-09,Denver Nuggets,total_2pt_attempted,5033
+2009-10,Denver Nuggets,total_2pt_attempted,5161
+2010-11,Denver Nuggets,total_2pt_attempted,4909
+2011-12,Denver Nuggets,total_2pt_attempted,4093
+2012-13,Denver Nuggets,total_2pt_attempted,5465
+2013-14,Denver Nuggets,total_2pt_attempted,5083
+2014-15,Denver Nuggets,total_2pt_attempted,5126
+2015-16,Denver Nuggets,total_2pt_attempted,5060
+2016-17,Denver Nuggets,total_2pt_attempted,4829
+2017-18,Denver Nuggets,total_2pt_attempted,4566
+2018-19,Denver Nuggets,total_2pt_attempted,4813
+2019-20,Denver Nuggets,total_2pt_attempted,4254
+2020-21,Denver Nuggets,total_2pt_attempted,3960
+2021-22,Denver Nuggets,total_2pt_attempted,4135
+2022-23,Denver Nuggets,total_2pt_attempted,4529
+2003-04,Detroit Pistons,total_2pt_attempted,5346
+2004-05,Detroit Pistons,total_2pt_attempted,5368
+2005-06,Detroit Pistons,total_2pt_attempted,5107
+2006-07,Detroit Pistons,total_2pt_attempted,5179
+2007-08,Detroit Pistons,total_2pt_attempted,5221
+2008-09,Detroit Pistons,total_2pt_attempted,5480
+2009-10,Detroit Pistons,total_2pt_attempted,5412
+2010-11,Detroit Pistons,total_2pt_attempted,5391
+2011-12,Detroit Pistons,total_2pt_attempted,4316
+2012-13,Detroit Pistons,total_2pt_attempted,5198
+2013-14,Detroit Pistons,total_2pt_attempted,5544
+2014-15,Detroit Pistons,total_2pt_attempted,4995
+2015-16,Detroit Pistons,total_2pt_attempted,4939
+2016-17,Detroit Pistons,total_2pt_attempted,5367
+2017-18,Detroit Pistons,total_2pt_attempted,4756
+2018-19,Detroit Pistons,total_2pt_attempted,4384
+2019-20,Detroit Pistons,total_2pt_attempted,3501
+2020-21,Detroit Pistons,total_2pt_attempted,3792
+2021-22,Detroit Pistons,total_2pt_attempted,4429
+2022-23,Detroit Pistons,total_2pt_attempted,4481
+2003-04,Golden State Warriors,total_2pt_attempted,5228
+2004-05,Golden State Warriors,total_2pt_attempted,5265
+2005-06,Golden State Warriors,total_2pt_attempted,4953
+2006-07,Golden State Warriors,total_2pt_attempted,5082
+2007-08,Golden State Warriors,total_2pt_attempted,5221
+2008-09,Golden State Warriors,total_2pt_attempted,5580
+2009-10,Golden State Warriors,total_2pt_attempted,5407
+2010-11,Golden State Warriors,total_2pt_attempted,5298
+2011-12,Golden State Warriors,total_2pt_attempted,4092
+2012-13,Golden State Warriors,total_2pt_attempted,5208
+2013-14,Golden State Warriors,total_2pt_attempted,4968
+2014-15,Golden State Warriors,total_2pt_attempted,4920
+2015-16,Golden State Warriors,total_2pt_attempted,4567
+2016-17,Golden State Warriors,total_2pt_attempted,4578
+2017-18,Golden State Warriors,total_2pt_attempted,4610
+2018-19,Golden State Warriors,total_2pt_attempted,4537
+2019-20,Golden State Warriors,total_2pt_attempted,3698
+2020-21,Golden State Warriors,total_2pt_attempted,3558
+2021-22,Golden State Warriors,total_2pt_attempted,3856
+2022-23,Golden State Warriors,total_2pt_attempted,3853
+2003-04,Houston Rockets,total_2pt_attempted,4789
+2004-05,Houston Rockets,total_2pt_attempted,4898
+2005-06,Houston Rockets,total_2pt_attempted,4838
+2006-07,Houston Rockets,total_2pt_attempted,4635
+2007-08,Houston Rockets,total_2pt_attempted,4991
+2008-09,Houston Rockets,total_2pt_attempted,4870
+2009-10,Houston Rockets,total_2pt_attempted,5085
+2010-11,Houston Rockets,total_2pt_attempted,5132
+2011-12,Houston Rockets,total_2pt_attempted,4213
+2012-13,Houston Rockets,total_2pt_attempted,4413
+2013-14,Houston Rockets,total_2pt_attempted,4424
+2014-15,Houston Rockets,total_2pt_attempted,4152
+2015-16,Houston Rockets,total_2pt_attempted,4314
+2016-17,Houston Rockets,total_2pt_attempted,3846
+2017-18,Houston Rockets,total_2pt_attempted,3436
+2018-19,Houston Rockets,total_2pt_attempted,3442
+2019-20,Houston Rockets,total_2pt_attempted,3251
+2020-21,Houston Rockets,total_2pt_attempted,3449
+2021-22,Houston Rockets,total_2pt_attempted,3913
+2022-23,Houston Rockets,total_2pt_attempted,4668
+2003-04,Indiana Pacers,total_2pt_attempted,5041
+2004-05,Indiana Pacers,total_2pt_attempted,4594
+2005-06,Indiana Pacers,total_2pt_attempted,4738
+2006-07,Indiana Pacers,total_2pt_attempted,5172
+2007-08,Indiana Pacers,total_2pt_attempted,4972
+2008-09,Indiana Pacers,total_2pt_attempted,5355
+2009-10,Indiana Pacers,total_2pt_attempted,4927
+2010-11,Indiana Pacers,total_2pt_attempted,5134
+2011-12,Indiana Pacers,total_2pt_attempted,4311
+2012-13,Indiana Pacers,total_2pt_attempted,4926
+2013-14,Indiana Pacers,total_2pt_attempted,5031
+2014-15,Indiana Pacers,total_2pt_attempted,5084
+2015-16,Indiana Pacers,total_2pt_attempted,5096
+2016-17,Indiana Pacers,total_2pt_attempted,5046
+2017-18,Indiana Pacers,total_2pt_attempted,5073
+2018-19,Indiana Pacers,total_2pt_attempted,5054
+2019-20,Indiana Pacers,total_2pt_attempted,4411
+2020-21,Indiana Pacers,total_2pt_attempted,4122
+2021-22,Indiana Pacers,total_2pt_attempted,4439
+2022-23,Indiana Pacers,total_2pt_attempted,4315
+2015-16,LA Clippers,total_2pt_attempted,4569
+2016-17,LA Clippers,total_2pt_attempted,4575
+2017-18,LA Clippers,total_2pt_attempted,4808
+2018-19,LA Clippers,total_2pt_attempted,5060
+2022-23,LA Clippers,total_2pt_attempted,4326
+2003-04,Los Angeles Clippers,total_2pt_attempted,5555
+2004-05,Los Angeles Clippers,total_2pt_attempted,5699
+2005-06,Los Angeles Clippers,total_2pt_attempted,5600
+2006-07,Los Angeles Clippers,total_2pt_attempted,5415
+2007-08,Los Angeles Clippers,total_2pt_attempted,5366
+2008-09,Los Angeles Clippers,total_2pt_attempted,5183
+2009-10,Los Angeles Clippers,total_2pt_attempted,5144
+2010-11,Los Angeles Clippers,total_2pt_attempted,5075
+2011-12,Los Angeles Clippers,total_2pt_attempted,3925
+2012-13,Los Angeles Clippers,total_2pt_attempted,4856
+2013-14,Los Angeles Clippers,total_2pt_attempted,4795
+2014-15,Los Angeles Clippers,total_2pt_attempted,4628
+2019-20,Los Angeles Clippers,total_2pt_attempted,4015
+2020-21,Los Angeles Clippers,total_2pt_attempted,3744
+2021-22,Los Angeles Clippers,total_2pt_attempted,4368
+2003-04,Los Angeles Lakers,total_2pt_attempted,5561
+2004-05,Los Angeles Lakers,total_2pt_attempted,4816
+2005-06,Los Angeles Lakers,total_2pt_attempted,5024
+2006-07,Los Angeles Lakers,total_2pt_attempted,4940
+2007-08,Los Angeles Lakers,total_2pt_attempted,5067
+2008-09,Los Angeles Lakers,total_2pt_attempted,5465
+2009-10,Los Angeles Lakers,total_2pt_attempted,5313
+2010-11,Los Angeles Lakers,total_2pt_attempted,5270
+2011-12,Los Angeles Lakers,total_2pt_attempted,4207
+2012-13,Los Angeles Lakers,total_2pt_attempted,4625
+2013-14,Los Angeles Lakers,total_2pt_attempted,4948
+2014-15,Los Angeles Lakers,total_2pt_attempted,5474
+2015-16,Los Angeles Lakers,total_2pt_attempted,4940
+2016-17,Los Angeles Lakers,total_2pt_attempted,5054
+2017-18,Los Angeles Lakers,total_2pt_attempted,4864
+2018-19,Los Angeles Lakers,total_2pt_attempted,4884
+2019-20,Los Angeles Lakers,total_2pt_attempted,4027
+2020-21,Los Angeles Lakers,total_2pt_attempted,3949
+2021-22,Los Angeles Lakers,total_2pt_attempted,4453
+2022-23,Los Angeles Lakers,total_2pt_attempted,4740
+2003-04,Memphis Grizzlies,total_2pt_attempted,5343
+2004-05,Memphis Grizzlies,total_2pt_attempted,4785
+2005-06,Memphis Grizzlies,total_2pt_attempted,4547
+2006-07,Memphis Grizzlies,total_2pt_attempted,5086
+2007-08,Memphis Grizzlies,total_2pt_attempted,4958
+2008-09,Memphis Grizzlies,total_2pt_attempted,5205
+2009-10,Memphis Grizzlies,total_2pt_attempted,5855
+2010-11,Memphis Grizzlies,total_2pt_attempted,5875
+2011-12,Memphis Grizzlies,total_2pt_attempted,4573
+2012-13,Memphis Grizzlies,total_2pt_attempted,5572
+2013-14,Memphis Grizzlies,total_2pt_attempted,5576
+2014-15,Memphis Grizzlies,total_2pt_attempted,5517
+2015-16,Memphis Grizzlies,total_2pt_attempted,5338
+2016-17,Memphis Grizzlies,total_2pt_attempted,4685
+2017-18,Memphis Grizzlies,total_2pt_attempted,4636
+2018-19,Memphis Grizzlies,total_2pt_attempted,4556
+2019-20,Memphis Grizzlies,total_2pt_attempted,4337
+2020-21,Memphis Grizzlies,total_2pt_attempted,4350
+2021-22,Memphis Grizzlies,total_2pt_attempted,5060
+2022-23,Memphis Grizzlies,total_2pt_attempted,4744
+2003-04,Miami Heat,total_2pt_attempted,5060
+2004-05,Miami Heat,total_2pt_attempted,5108
+2005-06,Miami Heat,total_2pt_attempted,4914
+2006-07,Miami Heat,total_2pt_attempted,4749
+2007-08,Miami Heat,total_2pt_attempted,4963
+2008-09,Miami Heat,total_2pt_attempted,5015
+2009-10,Miami Heat,total_2pt_attempted,5092
+2010-11,Miami Heat,total_2pt_attempted,4822
+2011-12,Miami Heat,total_2pt_attempted,4182
+2012-13,Miami Heat,total_2pt_attempted,4539
+2013-14,Miami Heat,total_2pt_attempted,4443
+2014-15,Miami Heat,total_2pt_attempted,4671
+2015-16,Miami Heat,total_2pt_attempted,5217
+2016-17,Miami Heat,total_2pt_attempted,4824
+2017-18,Miami Heat,total_2pt_attempted,4491
+2018-19,Miami Heat,total_2pt_attempted,4560
+2019-20,Miami Heat,total_2pt_attempted,3576
+2020-21,Miami Heat,total_2pt_attempted,3423
+2021-22,Miami Heat,total_2pt_attempted,4018
+2022-23,Miami Heat,total_2pt_attempted,4139
+2003-04,Milwaukee Bucks,total_2pt_attempted,5505
+2004-05,Milwaukee Bucks,total_2pt_attempted,5655
+2005-06,Milwaukee Bucks,total_2pt_attempted,5231
+2006-07,Milwaukee Bucks,total_2pt_attempted,5242
+2007-08,Milwaukee Bucks,total_2pt_attempted,5432
+2008-09,Milwaukee Bucks,total_2pt_attempted,5347
+2009-10,Milwaukee Bucks,total_2pt_attempted,5185
+2010-11,Milwaukee Bucks,total_2pt_attempted,5130
+2011-12,Milwaukee Bucks,total_2pt_attempted,4387
+2012-13,Milwaukee Bucks,total_2pt_attempted,5527
+2013-14,Milwaukee Bucks,total_2pt_attempted,5184
+2014-15,Milwaukee Bucks,total_2pt_attempted,5222
+2015-16,Milwaukee Bucks,total_2pt_attempted,5463
+2016-17,Milwaukee Bucks,total_2pt_attempted,4769
+2017-18,Milwaukee Bucks,total_2pt_attempted,4783
+2018-19,Milwaukee Bucks,total_2pt_attempted,4337
+2019-20,Milwaukee Bucks,total_2pt_attempted,3798
+2020-21,Milwaukee Bucks,total_2pt_attempted,3941
+2021-22,Milwaukee Bucks,total_2pt_attempted,4180
+2022-23,Milwaukee Bucks,total_2pt_attempted,4105
+2003-04,Minnesota Timberwolves,total_2pt_attempted,5674
+2004-05,Minnesota Timberwolves,total_2pt_attempted,5484
+2005-06,Minnesota Timberwolves,total_2pt_attempted,5398
+2006-07,Minnesota Timberwolves,total_2pt_attempted,5413
+2007-08,Minnesota Timberwolves,total_2pt_attempted,5558
+2008-09,Minnesota Timberwolves,total_2pt_attempted,5227
+2009-10,Minnesota Timberwolves,total_2pt_attempted,5742
+2010-11,Minnesota Timberwolves,total_2pt_attempted,5449
+2011-12,Minnesota Timberwolves,total_2pt_attempted,4011
+2012-13,Minnesota Timberwolves,total_2pt_attempted,5227
+2013-14,Minnesota Timberwolves,total_2pt_attempted,5418
+2014-15,Minnesota Timberwolves,total_2pt_attempted,5597
+2015-16,Minnesota Timberwolves,total_2pt_attempted,5321
+2016-17,Minnesota Timberwolves,total_2pt_attempted,5199
+2017-18,Minnesota Timberwolves,total_2pt_attempted,5218
+2018-19,Minnesota Timberwolves,total_2pt_attempted,5126
+2019-20,Minnesota Timberwolves,total_2pt_attempted,3325
+2020-21,Minnesota Timberwolves,total_2pt_attempted,3840
+2021-22,Minnesota Timberwolves,total_2pt_attempted,4072
+2022-23,Minnesota Timberwolves,total_2pt_attempted,4436
+2003-04,New Jersey Nets,total_2pt_attempted,5249
+2004-05,New Jersey Nets,total_2pt_attempted,5216
+2005-06,New Jersey Nets,total_2pt_attempted,4870
+2006-07,New Jersey Nets,total_2pt_attempted,4703
+2007-08,New Jersey Nets,total_2pt_attempted,5020
+2008-09,New Jersey Nets,total_2pt_attempted,4801
+2009-10,New Jersey Nets,total_2pt_attempted,5369
+2010-11,New Jersey Nets,total_2pt_attempted,5301
+2011-12,New Jersey Nets,total_2pt_attempted,3839
+2003-04,New Orleans Hornets,total_2pt_attempted,4939
+2004-05,New Orleans Hornets,total_2pt_attempted,5240
+2007-08,New Orleans Hornets,total_2pt_attempted,5175
+2008-09,New Orleans Hornets,total_2pt_attempted,4840
+2009-10,New Orleans Hornets,total_2pt_attempted,5270
+2010-11,New Orleans Hornets,total_2pt_attempted,5184
+2011-12,New Orleans Hornets,total_2pt_attempted,4326
+2012-13,New Orleans Hornets,total_2pt_attempted,5115
+2013-14,New Orleans Pelicans,total_2pt_attempted,5458
+2014-15,New Orleans Pelicans,total_2pt_attempted,5212
+2015-16,New Orleans Pelicans,total_2pt_attempted,5089
+2016-17,New Orleans Pelicans,total_2pt_attempted,4934
+2017-18,New Orleans Pelicans,total_2pt_attempted,4929
+2018-19,New Orleans Pelicans,total_2pt_attempted,5114
+2019-20,New Orleans Pelicans,total_2pt_attempted,3942
+2020-21,New Orleans Pelicans,total_2pt_attempted,4222
+2021-22,New Orleans Pelicans,total_2pt_attempted,4583
+2022-23,New Orleans Pelicans,total_2pt_attempted,4712
+2005-06,New Orleans/Oklahoma City Hornets,total_2pt_attempted,5543
+2006-07,New Orleans/Oklahoma City Hornets,total_2pt_attempted,5418
+2003-04,New York Knicks,total_2pt_attempted,5398
+2004-05,New York Knicks,total_2pt_attempted,5359
+2005-06,New York Knicks,total_2pt_attempted,5321
+2006-07,New York Knicks,total_2pt_attempted,4986
+2007-08,New York Knicks,total_2pt_attempted,5303
+2008-09,New York Knicks,total_2pt_attempted,4807
+2009-10,New York Knicks,total_2pt_attempted,4731
+2010-11,New York Knicks,total_2pt_attempted,4786
+2011-12,New York Knicks,total_2pt_attempted,3797
+2012-13,New York Knicks,total_2pt_attempted,4318
+2013-14,New York Knicks,total_2pt_attempted,4701
+2014-15,New York Knicks,total_2pt_attempted,5112
+2015-16,New York Knicks,total_2pt_attempted,5124
+2016-17,New York Knicks,total_2pt_attempted,5234
+2017-18,New York Knicks,total_2pt_attempted,5279
+2018-19,New York Knicks,total_2pt_attempted,4820
+2019-20,New York Knicks,total_2pt_attempted,4024
+2020-21,New York Knicks,total_2pt_attempted,4062
+2021-22,New York Knicks,total_2pt_attempted,4040
+2022-23,New York Knicks,total_2pt_attempted,4398
+2008-09,Oklahoma City Thunder,total_2pt_attempted,5767
+2009-10,Oklahoma City Thunder,total_2pt_attempted,5400
+2010-11,Oklahoma City Thunder,total_2pt_attempted,5206
+2011-12,Oklahoma City Thunder,total_2pt_attempted,3912
+2012-13,Oklahoma City Thunder,total_2pt_attempted,4916
+2013-14,Oklahoma City Thunder,total_2pt_attempted,4943
+2014-15,Oklahoma City Thunder,total_2pt_attempted,5255
+2015-16,Oklahoma City Thunder,total_2pt_attempted,5137
+2016-17,Oklahoma City Thunder,total_2pt_attempted,5053
+2017-18,Oklahoma City Thunder,total_2pt_attempted,4730
+2018-19,Oklahoma City Thunder,total_2pt_attempted,5029
+2019-20,Oklahoma City Thunder,total_2pt_attempted,3985
+2020-21,Oklahoma City Thunder,total_2pt_attempted,3809
+2021-22,Oklahoma City Thunder,total_2pt_attempted,4244
+2022-23,Oklahoma City Thunder,total_2pt_attempted,4793
+2003-04,Orlando Magic,total_2pt_attempted,5520
+2004-05,Orlando Magic,total_2pt_attempted,5763
+2005-06,Orlando Magic,total_2pt_attempted,5371
+2006-07,Orlando Magic,total_2pt_attempted,5128
+2007-08,Orlando Magic,total_2pt_attempted,4372
+2008-09,Orlando Magic,total_2pt_attempted,4269
+2009-10,Orlando Magic,total_2pt_attempted,4153
+2010-11,Orlando Magic,total_2pt_attempted,4308
+2011-12,Orlando Magic,total_2pt_attempted,3377
+2012-13,Orlando Magic,total_2pt_attempted,5367
+2013-14,Orlando Magic,total_2pt_attempted,5188
+2014-15,Orlando Magic,total_2pt_attempted,5194
+2015-16,Orlando Magic,total_2pt_attempted,5302
+2016-17,Orlando Magic,total_2pt_attempted,4994
+2017-18,Orlando Magic,total_2pt_attempted,4637
+2018-19,Orlando Magic,total_2pt_attempted,4674
+2019-20,Orlando Magic,total_2pt_attempted,4114
+2020-21,Orlando Magic,total_2pt_attempted,4135
+2021-22,Orlando Magic,total_2pt_attempted,4218
+2022-23,Orlando Magic,total_2pt_attempted,4523
+2003-04,Philadelphia 76ers,total_2pt_attempted,5268
+2004-05,Philadelphia 76ers,total_2pt_attempted,5283
+2005-06,Philadelphia 76ers,total_2pt_attempted,5515
+2006-07,Philadelphia 76ers,total_2pt_attempted,5585
+2007-08,Philadelphia 76ers,total_2pt_attempted,5696
+2008-09,Philadelphia 76ers,total_2pt_attempted,5460
+2009-10,Philadelphia 76ers,total_2pt_attempted,5325
+2010-11,Philadelphia 76ers,total_2pt_attempted,5528
+2011-12,Philadelphia 76ers,total_2pt_attempted,4553
+2012-13,Philadelphia 76ers,total_2pt_attempted,5457
+2013-14,Philadelphia 76ers,total_2pt_attempted,5303
+2014-15,Philadelphia 76ers,total_2pt_attempted,4617
+2015-16,Philadelphia 76ers,total_2pt_attempted,4632
+2016-17,Philadelphia 76ers,total_2pt_attempted,4549
+2017-18,Philadelphia 76ers,total_2pt_attempted,4653
+2018-19,Philadelphia 76ers,total_2pt_attempted,4759
+2019-20,Philadelphia 76ers,total_2pt_attempted,4110
+2020-21,Philadelphia 76ers,total_2pt_attempted,4088
+2021-22,Philadelphia 76ers,total_2pt_attempted,4324
+2022-23,Philadelphia 76ers,total_2pt_attempted,4195
+2003-04,Phoenix Suns,total_2pt_attempted,5469
+2004-05,Phoenix Suns,total_2pt_attempted,4992
+2005-06,Phoenix Suns,total_2pt_attempted,5070
+2006-07,Phoenix Suns,total_2pt_attempted,4890
+2007-08,Phoenix Suns,total_2pt_attempted,5018
+2008-09,Phoenix Suns,total_2pt_attempted,5250
+2009-10,Phoenix Suns,total_2pt_attempted,5018
+2010-11,Phoenix Suns,total_2pt_attempted,4987
+2011-12,Phoenix Suns,total_2pt_attempted,4150
+2012-13,Phoenix Suns,total_2pt_attempted,5462
+2013-14,Phoenix Suns,total_2pt_attempted,4790
+2014-15,Phoenix Suns,total_2pt_attempted,4990
+2015-16,Phoenix Suns,total_2pt_attempted,4900
+2016-17,Phoenix Suns,total_2pt_attempted,5406
+2017-18,Phoenix Suns,total_2pt_attempted,4855
+2018-19,Phoenix Suns,total_2pt_attempted,4764
+2019-20,Phoenix Suns,total_2pt_attempted,4109
+2020-21,Phoenix Suns,total_2pt_attempted,3867
+2021-22,Phoenix Suns,total_2pt_attempted,4773
+2022-23,Phoenix Suns,total_2pt_attempted,4714
+2003-04,Portland Trail Blazers,total_2pt_attempted,5365
+2004-05,Portland Trail Blazers,total_2pt_attempted,5261
+2005-06,Portland Trail Blazers,total_2pt_attempted,5225
+2006-07,Portland Trail Blazers,total_2pt_attempted,5160
+2007-08,Portland Trail Blazers,total_2pt_attempted,5120
+2008-09,Portland Trail Blazers,total_2pt_attempted,4939
+2009-10,Portland Trail Blazers,total_2pt_attempted,5065
+2010-11,Portland Trail Blazers,total_2pt_attempted,5096
+2011-12,Portland Trail Blazers,total_2pt_attempted,4035
+2012-13,Portland Trail Blazers,total_2pt_attempted,4811
+2013-14,Portland Trail Blazers,total_2pt_attempted,5063
+2014-15,Portland Trail Blazers,total_2pt_attempted,4818
+2015-16,Portland Trail Blazers,total_2pt_attempted,4704
+2016-17,Portland Trail Blazers,total_2pt_attempted,4787
+2017-18,Portland Trail Blazers,total_2pt_attempted,4824
+2018-19,Portland Trail Blazers,total_2pt_attempted,4907
+2019-20,Portland Trail Blazers,total_2pt_attempted,4224
+2020-21,Portland Trail Blazers,total_2pt_attempted,3619
+2021-22,Portland Trail Blazers,total_2pt_attempted,4127
+2022-23,Portland Trail Blazers,total_2pt_attempted,4108
+2003-04,Sacramento Kings,total_2pt_attempted,5213
+2004-05,Sacramento Kings,total_2pt_attempted,5582
+2005-06,Sacramento Kings,total_2pt_attempted,5092
+2006-07,Sacramento Kings,total_2pt_attempted,5019
+2007-08,Sacramento Kings,total_2pt_attempted,5191
+2008-09,Sacramento Kings,total_2pt_attempted,5091
+2009-10,Sacramento Kings,total_2pt_attempted,5512
+2010-11,Sacramento Kings,total_2pt_attempted,5702
+2011-12,Sacramento Kings,total_2pt_attempted,4411
+2012-13,Sacramento Kings,total_2pt_attempted,5223
+2013-14,Sacramento Kings,total_2pt_attempted,5291
+2014-15,Sacramento Kings,total_2pt_attempted,5267
+2015-16,Sacramento Kings,total_2pt_attempted,5244
+2016-17,Sacramento Kings,total_2pt_attempted,4774
+2017-18,Sacramento Kings,total_2pt_attempted,5096
+2018-19,Sacramento Kings,total_2pt_attempted,5182
+2019-20,Sacramento Kings,total_2pt_attempted,3853
+2020-21,Sacramento Kings,total_2pt_attempted,3982
+2021-22,Sacramento Kings,total_2pt_attempted,4501
+2022-23,Sacramento Kings,total_2pt_attempted,4172
+2003-04,San Antonio Spurs,total_2pt_attempted,5294
+2004-05,San Antonio Spurs,total_2pt_attempted,5055
+2005-06,San Antonio Spurs,total_2pt_attempted,4980
+2006-07,San Antonio Spurs,total_2pt_attempted,4767
+2007-08,San Antonio Spurs,total_2pt_attempted,4814
+2008-09,San Antonio Spurs,total_2pt_attempted,4914
+2009-10,San Antonio Spurs,total_2pt_attempted,5112
+2010-11,San Antonio Spurs,total_2pt_attempted,4901
+2011-12,San Antonio Spurs,total_2pt_attempted,4058
+2012-13,San Antonio Spurs,total_2pt_attempted,4911
+2013-14,San Antonio Spurs,total_2pt_attempted,5087
+2014-15,San Antonio Spurs,total_2pt_attempted,5007
+2015-16,San Antonio Spurs,total_2pt_attempted,5279
+2016-17,San Antonio Spurs,total_2pt_attempted,4937
+2017-18,San Antonio Spurs,total_2pt_attempted,5022
+2018-19,San Antonio Spurs,total_2pt_attempted,5177
+2019-20,San Antonio Spurs,total_2pt_attempted,4329
+2020-21,San Antonio Spurs,total_2pt_attempted,4472
+2021-22,San Antonio Spurs,total_2pt_attempted,4975
+2022-23,San Antonio Spurs,total_2pt_attempted,4953
+2003-04,Seattle SuperSonics,total_2pt_attempted,4654
+2004-05,Seattle SuperSonics,total_2pt_attempted,4674
+2005-06,Seattle SuperSonics,total_2pt_attempted,5080
+2006-07,Seattle SuperSonics,total_2pt_attempted,5177
+2007-08,Seattle SuperSonics,total_2pt_attempted,6093
+2003-04,Toronto Raptors,total_2pt_attempted,5054
+2004-05,Toronto Raptors,total_2pt_attempted,4975
+2005-06,Toronto Raptors,total_2pt_attempted,5019
+2006-07,Toronto Raptors,total_2pt_attempted,5083
+2007-08,Toronto Raptors,total_2pt_attempted,5267
+2008-09,Toronto Raptors,total_2pt_attempted,5384
+2009-10,Toronto Raptors,total_2pt_attempted,5234
+2010-11,Toronto Raptors,total_2pt_attempted,5664
+2011-12,Toronto Raptors,total_2pt_attempted,4079
+2012-13,Toronto Raptors,total_2pt_attempted,5020
+2013-14,Toronto Raptors,total_2pt_attempted,4801
+2014-15,Toronto Raptors,total_2pt_attempted,4769
+2015-16,Toronto Raptors,total_2pt_attempted,4754
+2016-17,Toronto Raptors,total_2pt_attempted,4922
+2017-18,Toronto Raptors,total_2pt_attempted,4464
+2018-19,Toronto Raptors,total_2pt_attempted,4534
+2019-20,Toronto Raptors,total_2pt_attempted,3668
+2020-21,Toronto Raptors,total_2pt_attempted,3552
+2021-22,Toronto Raptors,total_2pt_attempted,4681
+2022-23,Toronto Raptors,total_2pt_attempted,4863
+2003-04,Utah Jazz,total_2pt_attempted,5386
+2004-05,Utah Jazz,total_2pt_attempted,5539
+2005-06,Utah Jazz,total_2pt_attempted,5282
+2006-07,Utah Jazz,total_2pt_attempted,5415
+2007-08,Utah Jazz,total_2pt_attempted,5497
+2008-09,Utah Jazz,total_2pt_attempted,5501
+2009-10,Utah Jazz,total_2pt_attempted,5368
+2010-11,Utah Jazz,total_2pt_attempted,5334
+2011-12,Utah Jazz,total_2pt_attempted,4686
+2012-13,Utah Jazz,total_2pt_attempted,5325
+2013-14,Utah Jazz,total_2pt_attempted,5075
+2014-15,Utah Jazz,total_2pt_attempted,4711
+2015-16,Utah Jazz,total_2pt_attempted,4637
+2016-17,Utah Jazz,total_2pt_attempted,4387
+2017-18,Utah Jazz,total_2pt_attempted,4372
+2018-19,Utah Jazz,total_2pt_attempted,4293
+2019-20,Utah Jazz,total_2pt_attempted,3593
+2020-21,Utah Jazz,total_2pt_attempted,3246
+2021-22,Utah Jazz,total_2pt_attempted,3759
+2022-23,Utah Jazz,total_2pt_attempted,4266
+2003-04,Washington Wizards,total_2pt_attempted,5287
+2004-05,Washington Wizards,total_2pt_attempted,5296
+2005-06,Washington Wizards,total_2pt_attempted,5262
+2006-07,Washington Wizards,total_2pt_attempted,5206
+2007-08,Washington Wizards,total_2pt_attempted,5081
+2008-09,Washington Wizards,total_2pt_attempted,5457
+2009-10,Washington Wizards,total_2pt_attempted,5475
+2010-11,Washington Wizards,total_2pt_attempted,5706
+2011-12,Washington Wizards,total_2pt_attempted,4400
+2012-13,Washington Wizards,total_2pt_attempted,5198
+2013-14,Washington Wizards,total_2pt_attempted,5216
+2014-15,Washington Wizards,total_2pt_attempted,5409
+2015-16,Washington Wizards,total_2pt_attempted,5050
+2016-17,Washington Wizards,total_2pt_attempted,5107
+2017-18,Washington Wizards,total_2pt_attempted,4845
+2018-19,Washington Wizards,total_2pt_attempted,4656
+2019-20,Washington Wizards,total_2pt_attempted,4199
+2020-21,Washington Wizards,total_2pt_attempted,4459
+2021-22,Washington Wizards,total_2pt_attempted,4544
+2022-23,Washington Wizards,total_2pt_attempted,4526
+2003-04,Atlanta Hawks,total_3pt_attempted,1249
+2004-05,Atlanta Hawks,total_3pt_attempted,973
+2005-06,Atlanta Hawks,total_3pt_attempted,1154
+2006-07,Atlanta Hawks,total_3pt_attempted,1038
+2007-08,Atlanta Hawks,total_3pt_attempted,1078
+2008-09,Atlanta Hawks,total_3pt_attempted,1629
+2009-10,Atlanta Hawks,total_3pt_attempted,1453
+2010-11,Atlanta Hawks,total_3pt_attempted,1426
+2011-12,Atlanta Hawks,total_3pt_attempted,1330
+2012-13,Atlanta Hawks,total_3pt_attempted,1901
+2013-14,Atlanta Hawks,total_3pt_attempted,2115
+2014-15,Atlanta Hawks,total_3pt_attempted,2152
+2015-16,Atlanta Hawks,total_3pt_attempted,2323
+2016-17,Atlanta Hawks,total_3pt_attempted,2132
+2017-18,Atlanta Hawks,total_3pt_attempted,2544
+2018-19,Atlanta Hawks,total_3pt_attempted,3034
+2019-20,Atlanta Hawks,total_3pt_attempted,2416
+2020-21,Atlanta Hawks,total_3pt_attempted,2402
+2021-22,Atlanta Hawks,total_3pt_attempted,2821
+2022-23,Atlanta Hawks,total_3pt_attempted,2505
+2003-04,Boston Celtics,total_3pt_attempted,1599
+2004-05,Boston Celtics,total_3pt_attempted,1252
+2005-06,Boston Celtics,total_3pt_attempted,1290
+2006-07,Boston Celtics,total_3pt_attempted,1283
+2007-08,Boston Celtics,total_3pt_attempted,1564
+2008-09,Boston Celtics,total_3pt_attempted,1355
+2009-10,Boston Celtics,total_3pt_attempted,1432
+2010-11,Boston Celtics,total_3pt_attempted,1119
+2011-12,Boston Celtics,total_3pt_attempted,988
+2012-13,Boston Celtics,total_3pt_attempted,1389
+2013-14,Boston Celtics,total_3pt_attempted,1727
+2014-15,Boston Celtics,total_3pt_attempted,2019
+2015-16,Boston Celtics,total_3pt_attempted,2140
+2016-17,Boston Celtics,total_3pt_attempted,2738
+2017-18,Boston Celtics,total_3pt_attempted,2492
+2018-19,Boston Celtics,total_3pt_attempted,2829
+2019-20,Boston Celtics,total_3pt_attempted,2487
+2020-21,Boston Celtics,total_3pt_attempted,2618
+2021-22,Boston Celtics,total_3pt_attempted,3044
+2022-23,Boston Celtics,total_3pt_attempted,3492
+2012-13,Brooklyn Nets,total_3pt_attempted,1757
+2013-14,Brooklyn Nets,total_3pt_attempted,1921
+2014-15,Brooklyn Nets,total_3pt_attempted,1633
+2015-16,Brooklyn Nets,total_3pt_attempted,1506
+2016-17,Brooklyn Nets,total_3pt_attempted,2590
+2017-18,Brooklyn Nets,total_3pt_attempted,2924
+2018-19,Brooklyn Nets,total_3pt_attempted,2965
+2019-20,Brooklyn Nets,total_3pt_attempted,2746
+2020-21,Brooklyn Nets,total_3pt_attempted,2600
+2021-22,Brooklyn Nets,total_3pt_attempted,2602
+2022-23,Brooklyn Nets,total_3pt_attempted,2771
+2004-05,Charlotte Bobcats,total_3pt_attempted,881
+2005-06,Charlotte Bobcats,total_3pt_attempted,1261
+2006-07,Charlotte Bobcats,total_3pt_attempted,1280
+2007-08,Charlotte Bobcats,total_3pt_attempted,1443
+2008-09,Charlotte Bobcats,total_3pt_attempted,1339
+2009-10,Charlotte Bobcats,total_3pt_attempted,1330
+2010-11,Charlotte Bobcats,total_3pt_attempted,1202
+2011-12,Charlotte Bobcats,total_3pt_attempted,892
+2012-13,Charlotte Bobcats,total_3pt_attempted,1399
+2013-14,Charlotte Bobcats,total_3pt_attempted,1468
+2014-15,Charlotte Hornets,total_3pt_attempted,1566
+2015-16,Charlotte Hornets,total_3pt_attempted,2409
+2016-17,Charlotte Hornets,total_3pt_attempted,2345
+2017-18,Charlotte Hornets,total_3pt_attempted,2233
+2018-19,Charlotte Hornets,total_3pt_attempted,2783
+2019-20,Charlotte Hornets,total_3pt_attempted,2231
+2020-21,Charlotte Hornets,total_3pt_attempted,2666
+2021-22,Charlotte Hornets,total_3pt_attempted,3130
+2022-23,Charlotte Hornets,total_3pt_attempted,2669
+2003-04,Chicago Bulls,total_3pt_attempted,1256
+2004-05,Chicago Bulls,total_3pt_attempted,1433
+2005-06,Chicago Bulls,total_3pt_attempted,1477
+2006-07,Chicago Bulls,total_3pt_attempted,1237
+2007-08,Chicago Bulls,total_3pt_attempted,1305
+2008-09,Chicago Bulls,total_3pt_attempted,1291
+2009-10,Chicago Bulls,total_3pt_attempted,1065
+2010-11,Chicago Bulls,total_3pt_attempted,1415
+2011-12,Chicago Bulls,total_3pt_attempted,1116
+2012-13,Chicago Bulls,total_3pt_attempted,1265
+2013-14,Chicago Bulls,total_3pt_attempted,1459
+2014-15,Chicago Bulls,total_3pt_attempted,1825
+2015-16,Chicago Bulls,total_3pt_attempted,1753
+2016-17,Chicago Bulls,total_3pt_attempted,1828
+2017-18,Chicago Bulls,total_3pt_attempted,2549
+2018-19,Chicago Bulls,total_3pt_attempted,2123
+2019-20,Chicago Bulls,total_3pt_attempted,2282
+2020-21,Chicago Bulls,total_3pt_attempted,2446
+2021-22,Chicago Bulls,total_3pt_attempted,2364
+2022-23,Chicago Bulls,total_3pt_attempted,2367
+2003-04,Cleveland Cavaliers,total_3pt_attempted,786
+2004-05,Cleveland Cavaliers,total_3pt_attempted,904
+2005-06,Cleveland Cavaliers,total_3pt_attempted,1465
+2006-07,Cleveland Cavaliers,total_3pt_attempted,1404
+2007-08,Cleveland Cavaliers,total_3pt_attempted,1544
+2008-09,Cleveland Cavaliers,total_3pt_attempted,1670
+2009-10,Cleveland Cavaliers,total_3pt_attempted,1581
+2010-11,Cleveland Cavaliers,total_3pt_attempted,1489
+2011-12,Cleveland Cavaliers,total_3pt_attempted,1273
+2012-13,Cleveland Cavaliers,total_3pt_attempted,1581
+2013-14,Cleveland Cavaliers,total_3pt_attempted,1639
+2014-15,Cleveland Cavaliers,total_3pt_attempted,2252
+2015-16,Cleveland Cavaliers,total_3pt_attempted,2423
+2016-17,Cleveland Cavaliers,total_3pt_attempted,2772
+2017-18,Cleveland Cavaliers,total_3pt_attempted,2636
+2018-19,Cleveland Cavaliers,total_3pt_attempted,2388
+2019-20,Cleveland Cavaliers,total_3pt_attempted,2070
+2020-21,Cleveland Cavaliers,total_3pt_attempted,2141
+2021-22,Cleveland Cavaliers,total_3pt_attempted,2686
+2022-23,Cleveland Cavaliers,total_3pt_attempted,2589
+2003-04,Dallas Mavericks,total_3pt_attempted,1456
+2004-05,Dallas Mavericks,total_3pt_attempted,1273
+2005-06,Dallas Mavericks,total_3pt_attempted,1113
+2006-07,Dallas Mavericks,total_3pt_attempted,1404
+2007-08,Dallas Mavericks,total_3pt_attempted,1403
+2008-09,Dallas Mavericks,total_3pt_attempted,1632
+2009-10,Dallas Mavericks,total_3pt_attempted,1497
+2010-11,Dallas Mavericks,total_3pt_attempted,1768
+2011-12,Dallas Mavericks,total_3pt_attempted,1464
+2012-13,Dallas Mavericks,total_3pt_attempted,1628
+2013-14,Dallas Mavericks,total_3pt_attempted,1876
+2014-15,Dallas Mavericks,total_3pt_attempted,2082
+2015-16,Dallas Mavericks,total_3pt_attempted,2340
+2016-17,Dallas Mavericks,total_3pt_attempted,2472
+2017-18,Dallas Mavericks,total_3pt_attempted,2688
+2018-19,Dallas Mavericks,total_3pt_attempted,3002
+2019-20,Dallas Mavericks,total_3pt_attempted,3095
+2020-21,Dallas Mavericks,total_3pt_attempted,2744
+2021-22,Dallas Mavericks,total_3pt_attempted,3063
+2022-23,Dallas Mavericks,total_3pt_attempted,3362
+2003-04,Denver Nuggets,total_3pt_attempted,985
+2004-05,Denver Nuggets,total_3pt_attempted,940
+2005-06,Denver Nuggets,total_3pt_attempted,1076
+2006-07,Denver Nuggets,total_3pt_attempted,1440
+2007-08,Denver Nuggets,total_3pt_attempted,1605
+2008-09,Denver Nuggets,total_3pt_attempted,1477
+2009-10,Denver Nuggets,total_3pt_attempted,1517
+2010-11,Denver Nuggets,total_3pt_attempted,1700
+2011-12,Denver Nuggets,total_3pt_attempted,1310
+2012-13,Denver Nuggets,total_3pt_attempted,1516
+2013-14,Denver Nuggets,total_3pt_attempted,1959
+2014-15,Denver Nuggets,total_3pt_attempted,2032
+2015-16,Denver Nuggets,total_3pt_attempted,1942
+2016-17,Denver Nuggets,total_3pt_attempted,2361
+2017-18,Denver Nuggets,total_3pt_attempted,2536
+2018-19,Denver Nuggets,total_3pt_attempted,2571
+2019-20,Denver Nuggets,total_3pt_attempted,2234
+2020-21,Denver Nuggets,total_3pt_attempted,2462
+2021-22,Denver Nuggets,total_3pt_attempted,2944
+2022-23,Denver Nuggets,total_3pt_attempted,2559
+2003-04,Detroit Pistons,total_3pt_attempted,968
+2004-05,Detroit Pistons,total_3pt_attempted,1053
+2005-06,Detroit Pistons,total_3pt_attempted,1451
+2006-07,Detroit Pistons,total_3pt_attempted,1305
+2007-08,Detroit Pistons,total_3pt_attempted,1330
+2008-09,Detroit Pistons,total_3pt_attempted,1079
+2009-10,Detroit Pistons,total_3pt_attempted,1188
+2010-11,Detroit Pistons,total_3pt_attempted,1255
+2011-12,Detroit Pistons,total_3pt_attempted,916
+2012-13,Detroit Pistons,total_3pt_attempted,1440
+2013-14,Detroit Pistons,total_3pt_attempted,1579
+2014-15,Detroit Pistons,total_3pt_attempted,2043
+2015-16,Detroit Pistons,total_3pt_attempted,2144
+2016-17,Detroit Pistons,total_3pt_attempted,1911
+2017-18,Detroit Pistons,total_3pt_attempted,2373
+2018-19,Detroit Pistons,total_3pt_attempted,2854
+2019-20,Detroit Pistons,total_3pt_attempted,2157
+2020-21,Detroit Pistons,total_3pt_attempted,2370
+2021-22,Detroit Pistons,total_3pt_attempted,2838
+2022-23,Detroit Pistons,total_3pt_attempted,2659
+2003-04,Golden State Warriors,total_3pt_attempted,1283
+2004-05,Golden State Warriors,total_3pt_attempted,1774
+2005-06,Golden State Warriors,total_3pt_attempted,1832
+2006-07,Golden State Warriors,total_3pt_attempted,1966
+2007-08,Golden State Warriors,total_3pt_attempted,2185
+2008-09,Golden State Warriors,total_3pt_attempted,1474
+2009-10,Golden State Warriors,total_3pt_attempted,1687
+2010-11,Golden State Warriors,total_3pt_attempted,1749
+2011-12,Golden State Warriors,total_3pt_attempted,1351
+2012-13,Golden State Warriors,total_3pt_attempted,1632
+2013-14,Golden State Warriors,total_3pt_attempted,2037
+2014-15,Golden State Warriors,total_3pt_attempted,2217
+2015-16,Golden State Warriors,total_3pt_attempted,2588
+2016-17,Golden State Warriors,total_3pt_attempted,2561
+2017-18,Golden State Warriors,total_3pt_attempted,2369
+2018-19,Golden State Warriors,total_3pt_attempted,2824
+2019-20,Golden State Warriors,total_3pt_attempted,2032
+2020-21,Golden State Warriors,total_3pt_attempted,2789
+2021-22,Golden State Warriors,total_3pt_attempted,3231
+2022-23,Golden State Warriors,total_3pt_attempted,3540
+2003-04,Houston Rockets,total_3pt_attempted,1406
+2004-05,Houston Rockets,total_3pt_attempted,1521
+2005-06,Houston Rockets,total_3pt_attempted,1414
+2006-07,Houston Rockets,total_3pt_attempted,1893
+2007-08,Houston Rockets,total_3pt_attempted,1707
+2008-09,Houston Rockets,total_3pt_attempted,1655
+2009-10,Houston Rockets,total_3pt_attempted,1836
+2010-11,Houston Rockets,total_3pt_attempted,1841
+2011-12,Houston Rockets,total_3pt_attempted,1329
+2012-13,Houston Rockets,total_3pt_attempted,2368
+2013-14,Houston Rockets,total_3pt_attempted,2175
+2014-15,Houston Rockets,total_3pt_attempted,2679
+2015-16,Houston Rockets,total_3pt_attempted,2527
+2016-17,Houston Rockets,total_3pt_attempted,3299
+2017-18,Houston Rockets,total_3pt_attempted,3470
+2018-19,Houston Rockets,total_3pt_attempted,3721
+2019-20,Houston Rockets,total_3pt_attempted,3261
+2020-21,Houston Rockets,total_3pt_attempted,2923
+2021-22,Houston Rockets,total_3pt_attempted,3170
+2022-23,Houston Rockets,total_3pt_attempted,2619
+2003-04,Indiana Pacers,total_3pt_attempted,1281
+2004-05,Indiana Pacers,total_3pt_attempted,1575
+2005-06,Indiana Pacers,total_3pt_attempted,1536
+2006-07,Indiana Pacers,total_3pt_attempted,1389
+2007-08,Indiana Pacers,total_3pt_attempted,2021
+2008-09,Indiana Pacers,total_3pt_attempted,1725
+2009-10,Indiana Pacers,total_3pt_attempted,1894
+2010-11,Indiana Pacers,total_3pt_attempted,1652
+2011-12,Indiana Pacers,total_3pt_attempted,1063
+2012-13,Indiana Pacers,total_3pt_attempted,1598
+2013-14,Indiana Pacers,total_3pt_attempted,1541
+2014-15,Indiana Pacers,total_3pt_attempted,1740
+2015-16,Indiana Pacers,total_3pt_attempted,1874
+2016-17,Indiana Pacers,total_3pt_attempted,1872
+2017-18,Indiana Pacers,total_3pt_attempted,2010
+2018-19,Indiana Pacers,total_3pt_attempted,2081
+2019-20,Indiana Pacers,total_3pt_attempted,2046
+2020-21,Indiana Pacers,total_3pt_attempted,2445
+2021-22,Indiana Pacers,total_3pt_attempted,2899
+2022-23,Indiana Pacers,total_3pt_attempted,3030
+2015-16,LA Clippers,total_3pt_attempted,2157
+2016-17,LA Clippers,total_3pt_attempted,2214
+2017-18,LA Clippers,total_3pt_attempted,2196
+2018-19,LA Clippers,total_3pt_attempted,2118
+2022-23,LA Clippers,total_3pt_attempted,2734
+2003-04,Los Angeles Clippers,total_3pt_attempted,1024
+2004-05,Los Angeles Clippers,total_3pt_attempted,669
+2005-06,Los Angeles Clippers,total_3pt_attempted,843
+2006-07,Los Angeles Clippers,total_3pt_attempted,903
+2007-08,Los Angeles Clippers,total_3pt_attempted,1079
+2008-09,Los Angeles Clippers,total_3pt_attempted,1512
+2009-10,Los Angeles Clippers,total_3pt_attempted,1456
+2010-11,Los Angeles Clippers,total_3pt_attempted,1515
+2011-12,Los Angeles Clippers,total_3pt_attempted,1437
+2012-13,Los Angeles Clippers,total_3pt_attempted,1750
+2013-14,Los Angeles Clippers,total_3pt_attempted,1959
+2014-15,Los Angeles Clippers,total_3pt_attempted,2199
+2019-20,Los Angeles Clippers,total_3pt_attempted,2410
+2020-21,Los Angeles Clippers,total_3pt_attempted,2498
+2021-22,Los Angeles Clippers,total_3pt_attempted,2802
+2003-04,Los Angeles Lakers,total_3pt_attempted,1115
+2004-05,Los Angeles Lakers,total_3pt_attempted,1813
+2005-06,Los Angeles Lakers,total_3pt_attempted,1583
+2006-07,Los Angeles Lakers,total_3pt_attempted,1724
+2007-08,Los Angeles Lakers,total_3pt_attempted,1751
+2008-09,Los Angeles Lakers,total_3pt_attempted,1513
+2009-10,Los Angeles Lakers,total_3pt_attempted,1562
+2010-11,Los Angeles Lakers,total_3pt_attempted,1485
+2011-12,Los Angeles Lakers,total_3pt_attempted,1111
+2012-13,Los Angeles Lakers,total_3pt_attempted,2007
+2013-14,Los Angeles Lakers,total_3pt_attempted,2026
+2014-15,Los Angeles Lakers,total_3pt_attempted,1546
+2015-16,Los Angeles Lakers,total_3pt_attempted,2007
+2016-17,Los Angeles Lakers,total_3pt_attempted,2086
+2017-18,Los Angeles Lakers,total_3pt_attempted,2384
+2018-19,Los Angeles Lakers,total_3pt_attempted,2541
+2019-20,Los Angeles Lakers,total_3pt_attempted,2242
+2020-21,Los Angeles Lakers,total_3pt_attempted,2248
+2021-22,Los Angeles Lakers,total_3pt_attempted,2826
+2022-23,Los Angeles Lakers,total_3pt_attempted,2558
+2003-04,Memphis Grizzlies,total_3pt_attempted,1314
+2004-05,Memphis Grizzlies,total_3pt_attempted,1486
+2005-06,Memphis Grizzlies,total_3pt_attempted,1578
+2006-07,Memphis Grizzlies,total_3pt_attempted,1362
+2007-08,Memphis Grizzlies,total_3pt_attempted,1779
+2008-09,Memphis Grizzlies,total_3pt_attempted,1105
+2009-10,Memphis Grizzlies,total_3pt_attempted,1020
+2010-11,Memphis Grizzlies,total_3pt_attempted,926
+2011-12,Memphis Grizzlies,total_3pt_attempted,849
+2012-13,Memphis Grizzlies,total_3pt_attempted,1107
+2013-14,Memphis Grizzlies,total_3pt_attempted,1147
+2014-15,Memphis Grizzlies,total_3pt_attempted,1246
+2015-16,Memphis Grizzlies,total_3pt_attempted,1520
+2016-17,Memphis Grizzlies,total_3pt_attempted,2165
+2017-18,Memphis Grizzlies,total_3pt_attempted,2152
+2018-19,Memphis Grizzlies,total_3pt_attempted,2368
+2019-20,Memphis Grizzlies,total_3pt_attempted,2297
+2020-21,Memphis Grizzlies,total_3pt_attempted,2258
+2021-22,Memphis Grizzlies,total_3pt_attempted,2679
+2022-23,Memphis Grizzlies,total_3pt_attempted,2807
+2003-04,Miami Heat,total_3pt_attempted,1357
+2004-05,Miami Heat,total_3pt_attempted,1260
+2005-06,Miami Heat,total_3pt_attempted,1441
+2006-07,Miami Heat,total_3pt_attempted,1539
+2007-08,Miami Heat,total_3pt_attempted,1373
+2008-09,Miami Heat,total_3pt_attempted,1630
+2009-10,Miami Heat,total_3pt_attempted,1426
+2010-11,Miami Heat,total_3pt_attempted,1477
+2011-12,Miami Heat,total_3pt_attempted,1030
+2012-13,Miami Heat,total_3pt_attempted,1807
+2013-14,Miami Heat,total_3pt_attempted,1829
+2014-15,Miami Heat,total_3pt_attempted,1659
+2015-16,Miami Heat,total_3pt_attempted,1476
+2016-17,Miami Heat,total_3pt_attempted,2206
+2017-18,Miami Heat,total_3pt_attempted,2506
+2018-19,Miami Heat,total_3pt_attempted,2658
+2019-20,Miami Heat,total_3pt_attempted,2584
+2020-21,Miami Heat,total_3pt_attempted,2606
+2021-22,Miami Heat,total_3pt_attempted,2936
+2022-23,Miami Heat,total_3pt_attempted,2852
+2003-04,Milwaukee Bucks,total_3pt_attempted,1145
+2004-05,Milwaukee Bucks,total_3pt_attempted,925
+2005-06,Milwaukee Bucks,total_3pt_attempted,1335
+2006-07,Milwaukee Bucks,total_3pt_attempted,1472
+2007-08,Milwaukee Bucks,total_3pt_attempted,1313
+2008-09,Milwaukee Bucks,total_3pt_attempted,1407
+2009-10,Milwaukee Bucks,total_3pt_attempted,1807
+2010-11,Milwaukee Bucks,total_3pt_attempted,1413
+2011-12,Milwaukee Bucks,total_3pt_attempted,1258
+2012-13,Milwaukee Bucks,total_3pt_attempted,1669
+2013-14,Milwaukee Bucks,total_3pt_attempted,1551
+2014-15,Milwaukee Bucks,total_3pt_attempted,1500
+2015-16,Milwaukee Bucks,total_3pt_attempted,1263
+2016-17,Milwaukee Bucks,total_3pt_attempted,1932
+2017-18,Milwaukee Bucks,total_3pt_attempted,2024
+2018-19,Milwaukee Bucks,total_3pt_attempted,3134
+2019-20,Milwaukee Bucks,total_3pt_attempted,2840
+2020-21,Milwaukee Bucks,total_3pt_attempted,2669
+2021-22,Milwaukee Bucks,total_3pt_attempted,3151
+2022-23,Milwaukee Bucks,total_3pt_attempted,3306
+2003-04,Minnesota Timberwolves,total_3pt_attempted,897
+2004-05,Minnesota Timberwolves,total_3pt_attempted,1145
+2005-06,Minnesota Timberwolves,total_3pt_attempted,942
+2006-07,Minnesota Timberwolves,total_3pt_attempted,1089
+2007-08,Minnesota Timberwolves,total_3pt_attempted,1259
+2008-09,Minnesota Timberwolves,total_3pt_attempted,1539
+2009-10,Minnesota Timberwolves,total_3pt_attempted,1181
+2010-11,Minnesota Timberwolves,total_3pt_attempted,1565
+2011-12,Minnesota Timberwolves,total_3pt_attempted,1422
+2012-13,Minnesota Timberwolves,total_3pt_attempted,1475
+2013-14,Minnesota Timberwolves,total_3pt_attempted,1755
+2014-15,Minnesota Timberwolves,total_3pt_attempted,1222
+2015-16,Minnesota Timberwolves,total_3pt_attempted,1345
+2016-17,Minnesota Timberwolves,total_3pt_attempted,1722
+2017-18,Minnesota Timberwolves,total_3pt_attempted,1845
+2018-19,Minnesota Timberwolves,total_3pt_attempted,2357
+2019-20,Minnesota Timberwolves,total_3pt_attempted,2540
+2020-21,Minnesota Timberwolves,total_3pt_attempted,2706
+2021-22,Minnesota Timberwolves,total_3pt_attempted,3386
+2022-23,Minnesota Timberwolves,total_3pt_attempted,2731
+2003-04,New Jersey Nets,total_3pt_attempted,1123
+2004-05,New Jersey Nets,total_3pt_attempted,1203
+2005-06,New Jersey Nets,total_3pt_attempted,1447
+2006-07,New Jersey Nets,total_3pt_attempted,1676
+2007-08,New Jersey Nets,total_3pt_attempted,1430
+2008-09,New Jersey Nets,total_3pt_attempted,1734
+2009-10,New Jersey Nets,total_3pt_attempted,1185
+2010-11,New Jersey Nets,total_3pt_attempted,1337
+2011-12,New Jersey Nets,total_3pt_attempted,1481
+2003-04,New Orleans Hornets,total_3pt_attempted,1666
+2004-05,New Orleans Hornets,total_3pt_attempted,1316
+2007-08,New Orleans Hornets,total_3pt_attempted,1621
+2008-09,New Orleans Hornets,total_3pt_attempted,1524
+2009-10,New Orleans Hornets,total_3pt_attempted,1572
+2010-11,New Orleans Hornets,total_3pt_attempted,1232
+2011-12,New Orleans Hornets,total_3pt_attempted,777
+2012-13,New Orleans Hornets,total_3pt_attempted,1474
+2013-14,New Orleans Pelicans,total_3pt_attempted,1303
+2014-15,New Orleans Pelicans,total_3pt_attempted,1581
+2015-16,New Orleans Pelicans,total_3pt_attempted,1946
+2016-17,New Orleans Pelicans,total_3pt_attempted,2191
+2017-18,New Orleans Pelicans,total_3pt_attempted,2312
+2018-19,New Orleans Pelicans,total_3pt_attempted,2449
+2019-20,New Orleans Pelicans,total_3pt_attempted,2656
+2020-21,New Orleans Pelicans,total_3pt_attempted,2190
+2021-22,New Orleans Pelicans,total_3pt_attempted,2629
+2022-23,New Orleans Pelicans,total_3pt_attempted,2468
+2005-06,New Orleans/Oklahoma City Hornets,total_3pt_attempted,885
+2006-07,New Orleans/Oklahoma City Hornets,total_3pt_attempted,1256
+2003-04,New York Knicks,total_3pt_attempted,1115
+2004-05,New York Knicks,total_3pt_attempted,1240
+2005-06,New York Knicks,total_3pt_attempted,884
+2006-07,New York Knicks,total_3pt_attempted,1370
+2007-08,New York Knicks,total_3pt_attempted,1454
+2008-09,New York Knicks,total_3pt_attempted,2284
+2009-10,New York Knicks,total_3pt_attempted,2145
+2010-11,New York Knicks,total_3pt_attempted,2079
+2011-12,New York Knicks,total_3pt_attempted,1538
+2012-13,New York Knicks,total_3pt_attempted,2371
+2013-14,New York Knicks,total_3pt_attempted,2038
+2014-15,New York Knicks,total_3pt_attempted,1614
+2015-16,New York Knicks,total_3pt_attempted,1758
+2016-17,New York Knicks,total_3pt_attempted,2020
+2017-18,New York Knicks,total_3pt_attempted,1914
+2018-19,New York Knicks,total_3pt_attempted,2421
+2019-20,New York Knicks,total_3pt_attempted,1872
+2020-21,New York Knicks,total_3pt_attempted,2163
+2021-22,New York Knicks,total_3pt_attempted,3029
+2022-23,New York Knicks,total_3pt_attempted,2930
+2008-09,Oklahoma City Thunder,total_3pt_attempted,948
+2009-10,Oklahoma City Thunder,total_3pt_attempted,1229
+2010-11,Oklahoma City Thunder,total_3pt_attempted,1403
+2011-12,Oklahoma City Thunder,total_3pt_attempted,1317
+2012-13,Oklahoma City Thunder,total_3pt_attempted,1587
+2013-14,Oklahoma City Thunder,total_3pt_attempted,1838
+2014-15,Oklahoma City Thunder,total_3pt_attempted,1861
+2015-16,Oklahoma City Thunder,total_3pt_attempted,1943
+2016-17,Oklahoma City Thunder,total_3pt_attempted,2115
+2017-18,Oklahoma City Thunder,total_3pt_attempted,2491
+2018-19,Oklahoma City Thunder,total_3pt_attempted,2677
+2019-20,Oklahoma City Thunder,total_3pt_attempted,2171
+2020-21,Oklahoma City Thunder,total_3pt_attempted,2529
+2021-22,Oklahoma City Thunder,total_3pt_attempted,3066
+2022-23,Oklahoma City Thunder,total_3pt_attempted,2797
+2003-04,Orlando Magic,total_3pt_attempted,1248
+2004-05,Orlando Magic,total_3pt_attempted,916
+2005-06,Orlando Magic,total_3pt_attempted,796
+2006-07,Orlando Magic,total_3pt_attempted,962
+2007-08,Orlando Magic,total_3pt_attempted,2074
+2008-09,Orlando Magic,total_3pt_attempted,2147
+2009-10,Orlando Magic,total_3pt_attempted,2241
+2010-11,Orlando Magic,total_3pt_attempted,2101
+2011-12,Orlando Magic,total_3pt_attempted,1785
+2012-13,Orlando Magic,total_3pt_attempted,1537
+2013-14,Orlando Magic,total_3pt_attempted,1594
+2014-15,Orlando Magic,total_3pt_attempted,1598
+2015-16,Orlando Magic,total_3pt_attempted,1815
+2016-17,Orlando Magic,total_3pt_attempted,2136
+2017-18,Orlando Magic,total_3pt_attempted,2405
+2018-19,Orlando Magic,total_3pt_attempted,2633
+2019-20,Orlando Magic,total_3pt_attempted,2354
+2020-21,Orlando Magic,total_3pt_attempted,2288
+2021-22,Orlando Magic,total_3pt_attempted,3022
+2022-23,Orlando Magic,total_3pt_attempted,2551
+2003-04,Philadelphia 76ers,total_3pt_attempted,992
+2004-05,Philadelphia 76ers,total_3pt_attempted,1453
+2005-06,Philadelphia 76ers,total_3pt_attempted,1031
+2006-07,Philadelphia 76ers,total_3pt_attempted,823
+2007-08,Philadelphia 76ers,total_3pt_attempted,952
+2008-09,Philadelphia 76ers,total_3pt_attempted,1071
+2009-10,Philadelphia 76ers,total_3pt_attempted,1381
+2010-11,Philadelphia 76ers,total_3pt_attempted,1247
+2011-12,Philadelphia 76ers,total_3pt_attempted,963
+2012-13,Philadelphia 76ers,total_3pt_attempted,1437
+2013-14,Philadelphia 76ers,total_3pt_attempted,1845
+2014-15,Philadelphia 76ers,total_3pt_attempted,2159
+2015-16,Philadelphia 76ers,total_3pt_attempted,2253
+2016-17,Philadelphia 76ers,total_3pt_attempted,2428
+2017-18,Philadelphia 76ers,total_3pt_attempted,2445
+2018-19,Philadelphia 76ers,total_3pt_attempted,2474
+2019-20,Philadelphia 76ers,total_3pt_attempted,2307
+2020-21,Philadelphia 76ers,total_3pt_attempted,2169
+2021-22,Philadelphia 76ers,total_3pt_attempted,2608
+2022-23,Philadelphia 76ers,total_3pt_attempted,2675
+2003-04,Phoenix Suns,total_3pt_attempted,1202
+2004-05,Phoenix Suns,total_3pt_attempted,2026
+2005-06,Phoenix Suns,total_3pt_attempted,2097
+2006-07,Phoenix Suns,total_3pt_attempted,1965
+2007-08,Phoenix Suns,total_3pt_attempted,1764
+2008-09,Phoenix Suns,total_3pt_attempted,1444
+2009-10,Phoenix Suns,total_3pt_attempted,1770
+2010-11,Phoenix Suns,total_3pt_attempted,1857
+2011-12,Phoenix Suns,total_3pt_attempted,1295
+2012-13,Phoenix Suns,total_3pt_attempted,1455
+2013-14,Phoenix Suns,total_3pt_attempted,2053
+2014-15,Phoenix Suns,total_3pt_attempted,2048
+2015-16,Phoenix Suns,total_3pt_attempted,2113
+2016-17,Phoenix Suns,total_3pt_attempted,1852
+2017-18,Phoenix Suns,total_3pt_attempted,2286
+2018-19,Phoenix Suns,total_3pt_attempted,2400
+2019-20,Phoenix Suns,total_3pt_attempted,2320
+2020-21,Phoenix Suns,total_3pt_attempted,2490
+2021-22,Phoenix Suns,total_3pt_attempted,2616
+2022-23,Phoenix Suns,total_3pt_attempted,2674
+2003-04,Portland Trail Blazers,total_3pt_attempted,1102
+2004-05,Portland Trail Blazers,total_3pt_attempted,1161
+2005-06,Portland Trail Blazers,total_3pt_attempted,1042
+2006-07,Portland Trail Blazers,total_3pt_attempted,1232
+2007-08,Portland Trail Blazers,total_3pt_attempted,1426
+2008-09,Portland Trail Blazers,total_3pt_attempted,1555
+2009-10,Portland Trail Blazers,total_3pt_attempted,1388
+2010-11,Portland Trail Blazers,total_3pt_attempted,1502
+2011-12,Portland Trail Blazers,total_3pt_attempted,1382
+2012-13,Portland Trail Blazers,total_3pt_attempted,1902
+2013-14,Portland Trail Blazers,total_3pt_attempted,2071
+2014-15,Portland Trail Blazers,total_3pt_attempted,2228
+2015-16,Portland Trail Blazers,total_3pt_attempted,2332
+2016-17,Portland Trail Blazers,total_3pt_attempted,2270
+2017-18,Portland Trail Blazers,total_3pt_attempted,2308
+2018-19,Portland Trail Blazers,total_3pt_attempted,2520
+2019-20,Portland Trail Blazers,total_3pt_attempted,2525
+2020-21,Portland Trail Blazers,total_3pt_attempted,2939
+2021-22,Portland Trail Blazers,total_3pt_attempted,3017
+2022-23,Portland Trail Blazers,total_3pt_attempted,2893
+2003-04,Sacramento Kings,total_3pt_attempted,1498
+2004-05,Sacramento Kings,total_3pt_attempted,1396
+2005-06,Sacramento Kings,total_3pt_attempted,1408
+2006-07,Sacramento Kings,total_3pt_attempted,1513
+2007-08,Sacramento Kings,total_3pt_attempted,1367
+2008-09,Sacramento Kings,total_3pt_attempted,1593
+2009-10,Sacramento Kings,total_3pt_attempted,1382
+2010-11,Sacramento Kings,total_3pt_attempted,1275
+2011-12,Sacramento Kings,total_3pt_attempted,1301
+2012-13,Sacramento Kings,total_3pt_attempted,1681
+2013-14,Sacramento Kings,total_3pt_attempted,1475
+2014-15,Sacramento Kings,total_3pt_attempted,1350
+2015-16,Sacramento Kings,total_3pt_attempted,1838
+2016-17,Sacramento Kings,total_3pt_attempted,1953
+2017-18,Sacramento Kings,total_3pt_attempted,1967
+2018-19,Sacramento Kings,total_3pt_attempted,2455
+2019-20,Sacramento Kings,total_3pt_attempted,2511
+2020-21,Sacramento Kings,total_3pt_attempted,2400
+2021-22,Sacramento Kings,total_3pt_attempted,2722
+2022-23,Sacramento Kings,total_3pt_attempted,3060
+2003-04,San Antonio Spurs,total_3pt_attempted,1140
+2004-05,San Antonio Spurs,total_3pt_attempted,1395
+2005-06,San Antonio Spurs,total_3pt_attempted,1362
+2006-07,San Antonio Spurs,total_3pt_attempted,1561
+2007-08,San Antonio Spurs,total_3pt_attempted,1610
+2008-09,San Antonio Spurs,total_3pt_attempted,1618
+2009-10,San Antonio Spurs,total_3pt_attempted,1545
+2010-11,San Antonio Spurs,total_3pt_attempted,1725
+2011-12,San Antonio Spurs,total_3pt_attempted,1405
+2012-13,San Antonio Spurs,total_3pt_attempted,1763
+2013-14,San Antonio Spurs,total_3pt_attempted,1756
+2014-15,San Antonio Spurs,total_3pt_attempted,1845
+2015-16,San Antonio Spurs,total_3pt_attempted,1513
+2016-17,San Antonio Spurs,total_3pt_attempted,1925
+2017-18,San Antonio Spurs,total_3pt_attempted,1977
+2018-19,San Antonio Spurs,total_3pt_attempted,2071
+2019-20,San Antonio Spurs,total_3pt_attempted,2021
+2020-21,San Antonio Spurs,total_3pt_attempted,2046
+2021-22,San Antonio Spurs,total_3pt_attempted,2626
+2022-23,San Antonio Spurs,total_3pt_attempted,2640
+2003-04,Seattle SuperSonics,total_3pt_attempted,1936
+2004-05,Seattle SuperSonics,total_3pt_attempted,1824
+2005-06,Seattle SuperSonics,total_3pt_attempted,1631
+2006-07,Seattle SuperSonics,total_3pt_attempted,1451
+2007-08,Seattle SuperSonics,total_3pt_attempted,939
+2003-04,Toronto Raptors,total_3pt_attempted,1294
+2004-05,Toronto Raptors,total_3pt_attempted,1681
+2005-06,Toronto Raptors,total_3pt_attempted,1620
+2006-07,Toronto Raptors,total_3pt_attempted,1464
+2007-08,Toronto Raptors,total_3pt_attempted,1459
+2008-09,Toronto Raptors,total_3pt_attempted,1289
+2009-10,Toronto Raptors,total_3pt_attempted,1397
+2010-11,Toronto Raptors,total_3pt_attempted,1091
+2011-12,Toronto Raptors,total_3pt_attempted,1075
+2012-13,Toronto Raptors,total_3pt_attempted,1662
+2013-14,Toronto Raptors,total_3pt_attempted,1915
+2014-15,Toronto Raptors,total_3pt_attempted,2059
+2015-16,Toronto Raptors,total_3pt_attempted,1904
+2016-17,Toronto Raptors,total_3pt_attempted,1992
+2017-18,Toronto Raptors,total_3pt_attempted,2705
+2018-19,Toronto Raptors,total_3pt_attempted,2771
+2019-20,Toronto Raptors,total_3pt_attempted,2663
+2020-21,Toronto Raptors,total_3pt_attempted,2831
+2021-22,Toronto Raptors,total_3pt_attempted,2808
+2022-23,Toronto Raptors,total_3pt_attempted,2626
+2003-04,Utah Jazz,total_3pt_attempted,786
+2004-05,Utah Jazz,total_3pt_attempted,762
+2005-06,Utah Jazz,total_3pt_attempted,925
+2006-07,Utah Jazz,total_3pt_attempted,1056
+2007-08,Utah Jazz,total_3pt_attempted,1095
+2008-09,Utah Jazz,total_3pt_attempted,1122
+2009-10,Utah Jazz,total_3pt_attempted,1207
+2010-11,Utah Jazz,total_3pt_attempted,1256
+2011-12,Utah Jazz,total_3pt_attempted,845
+2012-13,Utah Jazz,total_3pt_attempted,1385
+2013-14,Utah Jazz,total_3pt_attempted,1575
+2014-15,Utah Jazz,total_3pt_attempted,1781
+2015-16,Utah Jazz,total_3pt_attempted,1956
+2016-17,Utah Jazz,total_3pt_attempted,2127
+2017-18,Utah Jazz,total_3pt_attempted,2425
+2018-19,Utah Jazz,total_3pt_attempted,2789
+2019-20,Utah Jazz,total_3pt_attempted,2537
+2020-21,Utah Jazz,total_3pt_attempted,3098
+2021-22,Utah Jazz,total_3pt_attempted,3308
+2022-23,Utah Jazz,total_3pt_attempted,3099
+2003-04,Washington Wizards,total_3pt_attempted,1270
+2004-05,Washington Wizards,total_3pt_attempted,1498
+2005-06,Washington Wizards,total_3pt_attempted,1394
+2006-07,Washington Wizards,total_3pt_attempted,1614
+2007-08,Washington Wizards,total_3pt_attempted,1614
+2008-09,Washington Wizards,total_3pt_attempted,1198
+2009-10,Washington Wizards,total_3pt_attempted,1225
+2010-11,Washington Wizards,total_3pt_attempted,1182
+2011-12,Washington Wizards,total_3pt_attempted,1072
+2012-13,Washington Wizards,total_3pt_attempted,1494
+2013-14,Washington Wizards,total_3pt_attempted,1702
+2014-15,Washington Wizards,total_3pt_attempted,1381
+2015-16,Washington Wizards,total_3pt_attempted,1977
+2016-17,Washington Wizards,total_3pt_attempted,2022
+2017-18,Washington Wizards,total_3pt_attempted,2173
+2018-19,Washington Wizards,total_3pt_attempted,2731
+2019-20,Washington Wizards,total_3pt_attempted,2345
+2020-21,Washington Wizards,total_3pt_attempted,2088
+2021-22,Washington Wizards,total_3pt_attempted,2512
+2022-23,Washington Wizards,total_3pt_attempted,2601
+2003-04,Atlanta Hawks,total_shots_attempted,6529
+2004-05,Atlanta Hawks,total_shots_attempted,6672
+2005-06,Atlanta Hawks,total_shots_attempted,6496
+2006-07,Atlanta Hawks,total_shots_attempted,6372
+2007-08,Atlanta Hawks,total_shots_attempted,6552
+2008-09,Atlanta Hawks,total_shots_attempted,6447
+2009-10,Atlanta Hawks,total_shots_attempted,6799
+2010-11,Atlanta Hawks,total_shots_attempted,6428
+2011-12,Atlanta Hawks,total_shots_attempted,5348
+2012-13,Atlanta Hawks,total_shots_attempted,6644
+2013-14,Atlanta Hawks,total_shots_attempted,6687
+2014-15,Atlanta Hawks,total_shots_attempted,6699
+2015-16,Atlanta Hawks,total_shots_attempted,6920
+2016-17,Atlanta Hawks,total_shots_attempted,6913
+2017-18,Atlanta Hawks,total_shots_attempted,7015
+2018-19,Atlanta Hawks,total_shots_attempted,7524
+2019-20,Atlanta Hawks,total_shots_attempted,6067
+2020-21,Atlanta Hawks,total_shots_attempted,6281
+2021-22,Atlanta Hawks,total_shots_attempted,7241
+2022-23,Atlanta Hawks,total_shots_attempted,7574
+2003-04,Boston Celtics,total_shots_attempted,6415
+2004-05,Boston Celtics,total_shots_attempted,6511
+2005-06,Boston Celtics,total_shots_attempted,6322
+2006-07,Boston Celtics,total_shots_attempted,6454
+2007-08,Boston Celtics,total_shots_attempted,6286
+2008-09,Boston Celtics,total_shots_attempted,6333
+2009-10,Boston Celtics,total_shots_attempted,6293
+2010-11,Boston Celtics,total_shots_attempted,6219
+2011-12,Boston Celtics,total_shots_attempted,5086
+2012-13,Boston Celtics,total_shots_attempted,6458
+2013-14,Boston Celtics,total_shots_attempted,6881
+2014-15,Boston Celtics,total_shots_attempted,7209
+2015-16,Boston Celtics,total_shots_attempted,7316
+2016-17,Boston Celtics,total_shots_attempted,6974
+2017-18,Boston Celtics,total_shots_attempted,6975
+2018-19,Boston Celtics,total_shots_attempted,7423
+2019-20,Boston Celtics,total_shots_attempted,6448
+2020-21,Boston Celtics,total_shots_attempted,6401
+2021-22,Boston Celtics,total_shots_attempted,7167
+2022-23,Boston Celtics,total_shots_attempted,7278
+2012-13,Brooklyn Nets,total_shots_attempted,6541
+2013-14,Brooklyn Nets,total_shots_attempted,6390
+2014-15,Brooklyn Nets,total_shots_attempted,6804
+2015-16,Brooklyn Nets,total_shots_attempted,6918
+2016-17,Brooklyn Nets,total_shots_attempted,6985
+2017-18,Brooklyn Nets,total_shots_attempted,7114
+2018-19,Brooklyn Nets,total_shots_attempted,7358
+2019-20,Brooklyn Nets,total_shots_attempted,6498
+2020-21,Brooklyn Nets,total_shots_attempted,6289
+2021-22,Brooklyn Nets,total_shots_attempted,7251
+2022-23,Brooklyn Nets,total_shots_attempted,6978
+2004-05,Charlotte Bobcats,total_shots_attempted,6859
+2005-06,Charlotte Bobcats,total_shots_attempted,6843
+2006-07,Charlotte Bobcats,total_shots_attempted,6643
+2007-08,Charlotte Bobcats,total_shots_attempted,6554
+2008-09,Charlotte Bobcats,total_shots_attempted,6299
+2009-10,Charlotte Bobcats,total_shots_attempted,6305
+2010-11,Charlotte Bobcats,total_shots_attempted,6364
+2011-12,Charlotte Bobcats,total_shots_attempted,5293
+2012-13,Charlotte Bobcats,total_shots_attempted,6649
+2013-14,Charlotte Bobcats,total_shots_attempted,6727
+2014-15,Charlotte Hornets,total_shots_attempted,6932
+2015-16,Charlotte Hornets,total_shots_attempted,6921
+2016-17,Charlotte Hornets,total_shots_attempted,6998
+2017-18,Charlotte Hornets,total_shots_attempted,7106
+2018-19,Charlotte Hornets,total_shots_attempted,7362
+2019-20,Charlotte Hornets,total_shots_attempted,5586
+2020-21,Charlotte Hornets,total_shots_attempted,6324
+2021-22,Charlotte Hornets,total_shots_attempted,7497
+2022-23,Charlotte Hornets,total_shots_attempted,7413
+2003-04,Chicago Bulls,total_shots_attempted,6753
+2004-05,Chicago Bulls,total_shots_attempted,6592
+2005-06,Chicago Bulls,total_shots_attempted,6737
+2006-07,Chicago Bulls,total_shots_attempted,6663
+2007-08,Chicago Bulls,total_shots_attempted,6861
+2008-09,Chicago Bulls,total_shots_attempted,6844
+2009-10,Chicago Bulls,total_shots_attempted,6824
+2010-11,Chicago Bulls,total_shots_attempted,6587
+2011-12,Chicago Bulls,total_shots_attempted,5461
+2012-13,Chicago Bulls,total_shots_attempted,6698
+2013-14,Chicago Bulls,total_shots_attempted,6577
+2014-15,Chicago Bulls,total_shots_attempted,6797
+2015-16,Chicago Bulls,total_shots_attempted,7170
+2016-17,Chicago Bulls,total_shots_attempted,7138
+2017-18,Chicago Bulls,total_shots_attempted,7285
+2018-19,Chicago Bulls,total_shots_attempted,7205
+2019-20,Chicago Bulls,total_shots_attempted,5762
+2020-21,Chicago Bulls,total_shots_attempted,6380
+2021-22,Chicago Bulls,total_shots_attempted,7127
+2022-23,Chicago Bulls,total_shots_attempted,7116
+2003-04,Cleveland Cavaliers,total_shots_attempted,6753
+2004-05,Cleveland Cavaliers,total_shots_attempted,6687
+2005-06,Cleveland Cavaliers,total_shots_attempted,6412
+2006-07,Cleveland Cavaliers,total_shots_attempted,6658
+2007-08,Cleveland Cavaliers,total_shots_attempted,6697
+2008-09,Cleveland Cavaliers,total_shots_attempted,6454
+2009-10,Cleveland Cavaliers,total_shots_attempted,6390
+2010-11,Cleveland Cavaliers,total_shots_attempted,6647
+2011-12,Cleveland Cavaliers,total_shots_attempted,5360
+2012-13,Cleveland Cavaliers,total_shots_attempted,6901
+2013-14,Cleveland Cavaliers,total_shots_attempted,6954
+2014-15,Cleveland Cavaliers,total_shots_attempted,6738
+2015-16,Cleveland Cavaliers,total_shots_attempted,6883
+2016-17,Cleveland Cavaliers,total_shots_attempted,6956
+2017-18,Cleveland Cavaliers,total_shots_attempted,6950
+2018-19,Cleveland Cavaliers,total_shots_attempted,7184
+2019-20,Cleveland Cavaliers,total_shots_attempted,5715
+2020-21,Cleveland Cavaliers,total_shots_attempted,6175
+2021-22,Cleveland Cavaliers,total_shots_attempted,6940
+2022-23,Cleveland Cavaliers,total_shots_attempted,6984
+2003-04,Dallas Mavericks,total_shots_attempted,7230
+2004-05,Dallas Mavericks,total_shots_attempted,6691
+2005-06,Dallas Mavericks,total_shots_attempted,6375
+2006-07,Dallas Mavericks,total_shots_attempted,6442
+2007-08,Dallas Mavericks,total_shots_attempted,6515
+2008-09,Dallas Mavericks,total_shots_attempted,6770
+2009-10,Dallas Mavericks,total_shots_attempted,6759
+2010-11,Dallas Mavericks,total_shots_attempted,6463
+2011-12,Dallas Mavericks,total_shots_attempted,5412
+2012-13,Dallas Mavericks,total_shots_attempted,6892
+2013-14,Dallas Mavericks,total_shots_attempted,6857
+2014-15,Dallas Mavericks,total_shots_attempted,7036
+2015-16,Dallas Mavericks,total_shots_attempted,6898
+2016-17,Dallas Mavericks,total_shots_attempted,6749
+2017-18,Dallas Mavericks,total_shots_attempted,7042
+2018-19,Dallas Mavericks,total_shots_attempted,7122
+2019-20,Dallas Mavericks,total_shots_attempted,6772
+2020-21,Dallas Mavericks,total_shots_attempted,6287
+2021-22,Dallas Mavericks,total_shots_attempted,6982
+2022-23,Dallas Mavericks,total_shots_attempted,6909
+2003-04,Denver Nuggets,total_shots_attempted,6763
+2004-05,Denver Nuggets,total_shots_attempted,6615
+2005-06,Denver Nuggets,total_shots_attempted,6672
+2006-07,Denver Nuggets,total_shots_attempted,6805
+2007-08,Denver Nuggets,total_shots_attempted,7038
+2008-09,Denver Nuggets,total_shots_attempted,6510
+2009-10,Denver Nuggets,total_shots_attempted,6678
+2010-11,Denver Nuggets,total_shots_attempted,6609
+2011-12,Denver Nuggets,total_shots_attempted,5403
+2012-13,Denver Nuggets,total_shots_attempted,6981
+2013-14,Denver Nuggets,total_shots_attempted,7042
+2014-15,Denver Nuggets,total_shots_attempted,7158
+2015-16,Denver Nuggets,total_shots_attempted,7002
+2016-17,Denver Nuggets,total_shots_attempted,7190
+2017-18,Denver Nuggets,total_shots_attempted,7102
+2018-19,Denver Nuggets,total_shots_attempted,7384
+2019-20,Denver Nuggets,total_shots_attempted,6488
+2020-21,Denver Nuggets,total_shots_attempted,6422
+2021-22,Denver Nuggets,total_shots_attempted,7079
+2022-23,Denver Nuggets,total_shots_attempted,7088
+2003-04,Detroit Pistons,total_shots_attempted,6314
+2004-05,Detroit Pistons,total_shots_attempted,6421
+2005-06,Detroit Pistons,total_shots_attempted,6558
+2006-07,Detroit Pistons,total_shots_attempted,6484
+2007-08,Detroit Pistons,total_shots_attempted,6551
+2008-09,Detroit Pistons,total_shots_attempted,6559
+2009-10,Detroit Pistons,total_shots_attempted,6600
+2010-11,Detroit Pistons,total_shots_attempted,6646
+2011-12,Detroit Pistons,total_shots_attempted,5232
+2012-13,Detroit Pistons,total_shots_attempted,6638
+2013-14,Detroit Pistons,total_shots_attempted,7123
+2014-15,Detroit Pistons,total_shots_attempted,7038
+2015-16,Detroit Pistons,total_shots_attempted,7083
+2016-17,Detroit Pistons,total_shots_attempted,7278
+2017-18,Detroit Pistons,total_shots_attempted,7129
+2018-19,Detroit Pistons,total_shots_attempted,7238
+2019-20,Detroit Pistons,total_shots_attempted,5658
+2020-21,Detroit Pistons,total_shots_attempted,6162
+2021-22,Detroit Pistons,total_shots_attempted,7267
+2022-23,Detroit Pistons,total_shots_attempted,7140
+2003-04,Golden State Warriors,total_shots_attempted,6511
+2004-05,Golden State Warriors,total_shots_attempted,7039
+2005-06,Golden State Warriors,total_shots_attempted,6785
+2006-07,Golden State Warriors,total_shots_attempted,7048
+2007-08,Golden State Warriors,total_shots_attempted,7406
+2008-09,Golden State Warriors,total_shots_attempted,7054
+2009-10,Golden State Warriors,total_shots_attempted,7094
+2010-11,Golden State Warriors,total_shots_attempted,7047
+2011-12,Golden State Warriors,total_shots_attempted,5443
+2012-13,Golden State Warriors,total_shots_attempted,6840
+2013-14,Golden State Warriors,total_shots_attempted,7005
+2014-15,Golden State Warriors,total_shots_attempted,7137
+2015-16,Golden State Warriors,total_shots_attempted,7155
+2016-17,Golden State Warriors,total_shots_attempted,7139
+2017-18,Golden State Warriors,total_shots_attempted,6979
+2018-19,Golden State Warriors,total_shots_attempted,7361
+2019-20,Golden State Warriors,total_shots_attempted,5730
+2020-21,Golden State Warriors,total_shots_attempted,6347
+2021-22,Golden State Warriors,total_shots_attempted,7087
+2022-23,Golden State Warriors,total_shots_attempted,7393
+2003-04,Houston Rockets,total_shots_attempted,6195
+2004-05,Houston Rockets,total_shots_attempted,6419
+2005-06,Houston Rockets,total_shots_attempted,6252
+2006-07,Houston Rockets,total_shots_attempted,6528
+2007-08,Houston Rockets,total_shots_attempted,6698
+2008-09,Houston Rockets,total_shots_attempted,6525
+2009-10,Houston Rockets,total_shots_attempted,6921
+2010-11,Houston Rockets,total_shots_attempted,6973
+2011-12,Houston Rockets,total_shots_attempted,5542
+2012-13,Houston Rockets,total_shots_attempted,6781
+2013-14,Houston Rockets,total_shots_attempted,6599
+2014-15,Houston Rockets,total_shots_attempted,6831
+2015-16,Houston Rockets,total_shots_attempted,6841
+2016-17,Houston Rockets,total_shots_attempted,7145
+2017-18,Houston Rockets,total_shots_attempted,6906
+2018-19,Houston Rockets,total_shots_attempted,7163
+2019-20,Houston Rockets,total_shots_attempted,6512
+2020-21,Houston Rockets,total_shots_attempted,6372
+2021-22,Houston Rockets,total_shots_attempted,7083
+2022-23,Houston Rockets,total_shots_attempted,7287
+2003-04,Indiana Pacers,total_shots_attempted,6322
+2004-05,Indiana Pacers,total_shots_attempted,6169
+2005-06,Indiana Pacers,total_shots_attempted,6274
+2006-07,Indiana Pacers,total_shots_attempted,6561
+2007-08,Indiana Pacers,total_shots_attempted,6993
+2008-09,Indiana Pacers,total_shots_attempted,7080
+2009-10,Indiana Pacers,total_shots_attempted,6821
+2010-11,Indiana Pacers,total_shots_attempted,6786
+2011-12,Indiana Pacers,total_shots_attempted,5374
+2012-13,Indiana Pacers,total_shots_attempted,6524
+2013-14,Indiana Pacers,total_shots_attempted,6572
+2014-15,Indiana Pacers,total_shots_attempted,6824
+2015-16,Indiana Pacers,total_shots_attempted,6970
+2016-17,Indiana Pacers,total_shots_attempted,6918
+2017-18,Indiana Pacers,total_shots_attempted,7083
+2018-19,Indiana Pacers,total_shots_attempted,7135
+2019-20,Indiana Pacers,total_shots_attempted,6457
+2020-21,Indiana Pacers,total_shots_attempted,6567
+2021-22,Indiana Pacers,total_shots_attempted,7338
+2022-23,Indiana Pacers,total_shots_attempted,7345
+2015-16,LA Clippers,total_shots_attempted,6726
+2016-17,LA Clippers,total_shots_attempted,6789
+2017-18,LA Clippers,total_shots_attempted,7004
+2018-19,LA Clippers,total_shots_attempted,7178
+2022-23,LA Clippers,total_shots_attempted,7060
+2003-04,Los Angeles Clippers,total_shots_attempted,6579
+2004-05,Los Angeles Clippers,total_shots_attempted,6368
+2005-06,Los Angeles Clippers,total_shots_attempted,6443
+2006-07,Los Angeles Clippers,total_shots_attempted,6318
+2007-08,Los Angeles Clippers,total_shots_attempted,6445
+2008-09,Los Angeles Clippers,total_shots_attempted,6695
+2009-10,Los Angeles Clippers,total_shots_attempted,6600
+2010-11,Los Angeles Clippers,total_shots_attempted,6590
+2011-12,Los Angeles Clippers,total_shots_attempted,5362
+2012-13,Los Angeles Clippers,total_shots_attempted,6606
+2013-14,Los Angeles Clippers,total_shots_attempted,6754
+2014-15,Los Angeles Clippers,total_shots_attempted,6827
+2019-20,Los Angeles Clippers,total_shots_attempted,6425
+2020-21,Los Angeles Clippers,total_shots_attempted,6242
+2021-22,Los Angeles Clippers,total_shots_attempted,7170
+2003-04,Los Angeles Lakers,total_shots_attempted,6676
+2004-05,Los Angeles Lakers,total_shots_attempted,6629
+2005-06,Los Angeles Lakers,total_shots_attempted,6607
+2006-07,Los Angeles Lakers,total_shots_attempted,6664
+2007-08,Los Angeles Lakers,total_shots_attempted,6818
+2008-09,Los Angeles Lakers,total_shots_attempted,6978
+2009-10,Los Angeles Lakers,total_shots_attempted,6875
+2010-11,Los Angeles Lakers,total_shots_attempted,6755
+2011-12,Los Angeles Lakers,total_shots_attempted,5318
+2012-13,Los Angeles Lakers,total_shots_attempted,6632
+2013-14,Los Angeles Lakers,total_shots_attempted,6974
+2014-15,Los Angeles Lakers,total_shots_attempted,7020
+2015-16,Los Angeles Lakers,total_shots_attempted,6947
+2016-17,Los Angeles Lakers,total_shots_attempted,7140
+2017-18,Los Angeles Lakers,total_shots_attempted,7248
+2018-19,Los Angeles Lakers,total_shots_attempted,7425
+2019-20,Los Angeles Lakers,total_shots_attempted,6269
+2020-21,Los Angeles Lakers,total_shots_attempted,6197
+2021-22,Los Angeles Lakers,total_shots_attempted,7279
+2022-23,Los Angeles Lakers,total_shots_attempted,7298
+2003-04,Memphis Grizzlies,total_shots_attempted,6657
+2004-05,Memphis Grizzlies,total_shots_attempted,6271
+2005-06,Memphis Grizzlies,total_shots_attempted,6125
+2006-07,Memphis Grizzlies,total_shots_attempted,6448
+2007-08,Memphis Grizzlies,total_shots_attempted,6737
+2008-09,Memphis Grizzlies,total_shots_attempted,6310
+2009-10,Memphis Grizzlies,total_shots_attempted,6875
+2010-11,Memphis Grizzlies,total_shots_attempted,6801
+2011-12,Memphis Grizzlies,total_shots_attempted,5422
+2012-13,Memphis Grizzlies,total_shots_attempted,6679
+2013-14,Memphis Grizzlies,total_shots_attempted,6723
+2014-15,Memphis Grizzlies,total_shots_attempted,6763
+2015-16,Memphis Grizzlies,total_shots_attempted,6858
+2016-17,Memphis Grizzlies,total_shots_attempted,6850
+2017-18,Memphis Grizzlies,total_shots_attempted,6788
+2018-19,Memphis Grizzlies,total_shots_attempted,6924
+2019-20,Memphis Grizzlies,total_shots_attempted,6634
+2020-21,Memphis Grizzlies,total_shots_attempted,6608
+2021-22,Memphis Grizzlies,total_shots_attempted,7739
+2022-23,Memphis Grizzlies,total_shots_attempted,7551
+2003-04,Miami Heat,total_shots_attempted,6417
+2004-05,Miami Heat,total_shots_attempted,6368
+2005-06,Miami Heat,total_shots_attempted,6355
+2006-07,Miami Heat,total_shots_attempted,6288
+2007-08,Miami Heat,total_shots_attempted,6336
+2008-09,Miami Heat,total_shots_attempted,6645
+2009-10,Miami Heat,total_shots_attempted,6518
+2010-11,Miami Heat,total_shots_attempted,6299
+2011-12,Miami Heat,total_shots_attempted,5212
+2012-13,Miami Heat,total_shots_attempted,6346
+2013-14,Miami Heat,total_shots_attempted,6272
+2014-15,Miami Heat,total_shots_attempted,6330
+2015-16,Miami Heat,total_shots_attempted,6693
+2016-17,Miami Heat,total_shots_attempted,7030
+2017-18,Miami Heat,total_shots_attempted,6997
+2018-19,Miami Heat,total_shots_attempted,7218
+2019-20,Miami Heat,total_shots_attempted,6160
+2020-21,Miami Heat,total_shots_attempted,6029
+2021-22,Miami Heat,total_shots_attempted,6954
+2022-23,Miami Heat,total_shots_attempted,6991
+2003-04,Milwaukee Bucks,total_shots_attempted,6650
+2004-05,Milwaukee Bucks,total_shots_attempted,6580
+2005-06,Milwaukee Bucks,total_shots_attempted,6566
+2006-07,Milwaukee Bucks,total_shots_attempted,6714
+2007-08,Milwaukee Bucks,total_shots_attempted,6745
+2008-09,Milwaukee Bucks,total_shots_attempted,6754
+2009-10,Milwaukee Bucks,total_shots_attempted,6992
+2010-11,Milwaukee Bucks,total_shots_attempted,6543
+2011-12,Milwaukee Bucks,total_shots_attempted,5645
+2012-13,Milwaukee Bucks,total_shots_attempted,7196
+2013-14,Milwaukee Bucks,total_shots_attempted,6735
+2014-15,Milwaukee Bucks,total_shots_attempted,6722
+2015-16,Milwaukee Bucks,total_shots_attempted,6726
+2016-17,Milwaukee Bucks,total_shots_attempted,6701
+2017-18,Milwaukee Bucks,total_shots_attempted,6807
+2018-19,Milwaukee Bucks,total_shots_attempted,7471
+2019-20,Milwaukee Bucks,total_shots_attempted,6638
+2020-21,Milwaukee Bucks,total_shots_attempted,6610
+2021-22,Milwaukee Bucks,total_shots_attempted,7331
+2022-23,Milwaukee Bucks,total_shots_attempted,7411
+2003-04,Minnesota Timberwolves,total_shots_attempted,6571
+2004-05,Minnesota Timberwolves,total_shots_attempted,6629
+2005-06,Minnesota Timberwolves,total_shots_attempted,6340
+2006-07,Minnesota Timberwolves,total_shots_attempted,6502
+2007-08,Minnesota Timberwolves,total_shots_attempted,6817
+2008-09,Minnesota Timberwolves,total_shots_attempted,6766
+2009-10,Minnesota Timberwolves,total_shots_attempted,6923
+2010-11,Minnesota Timberwolves,total_shots_attempted,7014
+2011-12,Minnesota Timberwolves,total_shots_attempted,5433
+2012-13,Minnesota Timberwolves,total_shots_attempted,6702
+2013-14,Minnesota Timberwolves,total_shots_attempted,7173
+2014-15,Minnesota Timberwolves,total_shots_attempted,6819
+2015-16,Minnesota Timberwolves,total_shots_attempted,6666
+2016-17,Minnesota Timberwolves,total_shots_attempted,6921
+2017-18,Minnesota Timberwolves,total_shots_attempted,7063
+2018-19,Minnesota Timberwolves,total_shots_attempted,7483
+2019-20,Minnesota Timberwolves,total_shots_attempted,5865
+2020-21,Minnesota Timberwolves,total_shots_attempted,6546
+2021-22,Minnesota Timberwolves,total_shots_attempted,7458
+2022-23,Minnesota Timberwolves,total_shots_attempted,7167
+2003-04,New Jersey Nets,total_shots_attempted,6372
+2004-05,New Jersey Nets,total_shots_attempted,6419
+2005-06,New Jersey Nets,total_shots_attempted,6317
+2006-07,New Jersey Nets,total_shots_attempted,6379
+2007-08,New Jersey Nets,total_shots_attempted,6450
+2008-09,New Jersey Nets,total_shots_attempted,6535
+2009-10,New Jersey Nets,total_shots_attempted,6554
+2010-11,New Jersey Nets,total_shots_attempted,6638
+2011-12,New Jersey Nets,total_shots_attempted,5320
+2003-04,New Orleans Hornets,total_shots_attempted,6605
+2004-05,New Orleans Hornets,total_shots_attempted,6556
+2007-08,New Orleans Hornets,total_shots_attempted,6796
+2008-09,New Orleans Hornets,total_shots_attempted,6364
+2009-10,New Orleans Hornets,total_shots_attempted,6842
+2010-11,New Orleans Hornets,total_shots_attempted,6416
+2011-12,New Orleans Hornets,total_shots_attempted,5103
+2012-13,New Orleans Hornets,total_shots_attempted,6589
+2013-14,New Orleans Pelicans,total_shots_attempted,6761
+2014-15,New Orleans Pelicans,total_shots_attempted,6793
+2015-16,New Orleans Pelicans,total_shots_attempted,7035
+2016-17,New Orleans Pelicans,total_shots_attempted,7125
+2017-18,New Orleans Pelicans,total_shots_attempted,7241
+2018-19,New Orleans Pelicans,total_shots_attempted,7563
+2019-20,New Orleans Pelicans,total_shots_attempted,6598
+2020-21,New Orleans Pelicans,total_shots_attempted,6412
+2021-22,New Orleans Pelicans,total_shots_attempted,7212
+2022-23,New Orleans Pelicans,total_shots_attempted,7180
+2005-06,New Orleans/Oklahoma City Hornets,total_shots_attempted,6428
+2006-07,New Orleans/Oklahoma City Hornets,total_shots_attempted,6674
+2003-04,New York Knicks,total_shots_attempted,6513
+2004-05,New York Knicks,total_shots_attempted,6599
+2005-06,New York Knicks,total_shots_attempted,6205
+2006-07,New York Knicks,total_shots_attempted,6356
+2007-08,New York Knicks,total_shots_attempted,6757
+2008-09,New York Knicks,total_shots_attempted,7091
+2009-10,New York Knicks,total_shots_attempted,6876
+2010-11,New York Knicks,total_shots_attempted,6865
+2011-12,New York Knicks,total_shots_attempted,5335
+2012-13,New York Knicks,total_shots_attempted,6689
+2013-14,New York Knicks,total_shots_attempted,6739
+2014-15,New York Knicks,total_shots_attempted,6726
+2015-16,New York Knicks,total_shots_attempted,6882
+2016-17,New York Knicks,total_shots_attempted,7254
+2017-18,New York Knicks,total_shots_attempted,7193
+2018-19,New York Knicks,total_shots_attempted,7241
+2019-20,New York Knicks,total_shots_attempted,5896
+2020-21,New York Knicks,total_shots_attempted,6225
+2021-22,New York Knicks,total_shots_attempted,7069
+2022-23,New York Knicks,total_shots_attempted,7328
+2008-09,Oklahoma City Thunder,total_shots_attempted,6715
+2009-10,Oklahoma City Thunder,total_shots_attempted,6629
+2010-11,Oklahoma City Thunder,total_shots_attempted,6609
+2011-12,Oklahoma City Thunder,total_shots_attempted,5229
+2012-13,Oklahoma City Thunder,total_shots_attempted,6503
+2013-14,Oklahoma City Thunder,total_shots_attempted,6781
+2014-15,Oklahoma City Thunder,total_shots_attempted,7116
+2015-16,Oklahoma City Thunder,total_shots_attempted,7080
+2016-17,Oklahoma City Thunder,total_shots_attempted,7168
+2017-18,Oklahoma City Thunder,total_shots_attempted,7221
+2018-19,Oklahoma City Thunder,total_shots_attempted,7706
+2019-20,Oklahoma City Thunder,total_shots_attempted,6156
+2020-21,Oklahoma City Thunder,total_shots_attempted,6338
+2021-22,Oklahoma City Thunder,total_shots_attempted,7310
+2022-23,Oklahoma City Thunder,total_shots_attempted,7590
+2003-04,Orlando Magic,total_shots_attempted,6768
+2004-05,Orlando Magic,total_shots_attempted,6679
+2005-06,Orlando Magic,total_shots_attempted,6167
+2006-07,Orlando Magic,total_shots_attempted,6090
+2007-08,Orlando Magic,total_shots_attempted,6446
+2008-09,Orlando Magic,total_shots_attempted,6416
+2009-10,Orlando Magic,total_shots_attempted,6394
+2010-11,Orlando Magic,total_shots_attempted,6409
+2011-12,Orlando Magic,total_shots_attempted,5162
+2012-13,Orlando Magic,total_shots_attempted,6904
+2013-14,Orlando Magic,total_shots_attempted,6782
+2014-15,Orlando Magic,total_shots_attempted,6792
+2015-16,Orlando Magic,total_shots_attempted,7117
+2016-17,Orlando Magic,total_shots_attempted,7130
+2017-18,Orlando Magic,total_shots_attempted,7042
+2018-19,Orlando Magic,total_shots_attempted,7307
+2019-20,Orlando Magic,total_shots_attempted,6468
+2020-21,Orlando Magic,total_shots_attempted,6423
+2021-22,Orlando Magic,total_shots_attempted,7240
+2022-23,Orlando Magic,total_shots_attempted,7074
+2003-04,Philadelphia 76ers,total_shots_attempted,6260
+2004-05,Philadelphia 76ers,total_shots_attempted,6736
+2005-06,Philadelphia 76ers,total_shots_attempted,6546
+2006-07,Philadelphia 76ers,total_shots_attempted,6408
+2007-08,Philadelphia 76ers,total_shots_attempted,6648
+2008-09,Philadelphia 76ers,total_shots_attempted,6531
+2009-10,Philadelphia 76ers,total_shots_attempted,6706
+2010-11,Philadelphia 76ers,total_shots_attempted,6775
+2011-12,Philadelphia 76ers,total_shots_attempted,5516
+2012-13,Philadelphia 76ers,total_shots_attempted,6894
+2013-14,Philadelphia 76ers,total_shots_attempted,7148
+2014-15,Philadelphia 76ers,total_shots_attempted,6776
+2015-16,Philadelphia 76ers,total_shots_attempted,6885
+2016-17,Philadelphia 76ers,total_shots_attempted,6977
+2017-18,Philadelphia 76ers,total_shots_attempted,7098
+2018-19,Philadelphia 76ers,total_shots_attempted,7233
+2019-20,Philadelphia 76ers,total_shots_attempted,6417
+2020-21,Philadelphia 76ers,total_shots_attempted,6257
+2021-22,Philadelphia 76ers,total_shots_attempted,6932
+2022-23,Philadelphia 76ers,total_shots_attempted,6870
+2003-04,Phoenix Suns,total_shots_attempted,6671
+2004-05,Phoenix Suns,total_shots_attempted,7018
+2005-06,Phoenix Suns,total_shots_attempted,7167
+2006-07,Phoenix Suns,total_shots_attempted,6855
+2007-08,Phoenix Suns,total_shots_attempted,6782
+2008-09,Phoenix Suns,total_shots_attempted,6694
+2009-10,Phoenix Suns,total_shots_attempted,6788
+2010-11,Phoenix Suns,total_shots_attempted,6844
+2011-12,Phoenix Suns,total_shots_attempted,5445
+2012-13,Phoenix Suns,total_shots_attempted,6917
+2013-14,Phoenix Suns,total_shots_attempted,6843
+2014-15,Phoenix Suns,total_shots_attempted,7038
+2015-16,Phoenix Suns,total_shots_attempted,7013
+2016-17,Phoenix Suns,total_shots_attempted,7258
+2017-18,Phoenix Suns,total_shots_attempted,7141
+2018-19,Phoenix Suns,total_shots_attempted,7164
+2019-20,Phoenix Suns,total_shots_attempted,6429
+2020-21,Phoenix Suns,total_shots_attempted,6357
+2021-22,Phoenix Suns,total_shots_attempted,7389
+2022-23,Phoenix Suns,total_shots_attempted,7388
+2003-04,Portland Trail Blazers,total_shots_attempted,6467
+2004-05,Portland Trail Blazers,total_shots_attempted,6422
+2005-06,Portland Trail Blazers,total_shots_attempted,6267
+2006-07,Portland Trail Blazers,total_shots_attempted,6392
+2007-08,Portland Trail Blazers,total_shots_attempted,6546
+2008-09,Portland Trail Blazers,total_shots_attempted,6494
+2009-10,Portland Trail Blazers,total_shots_attempted,6453
+2010-11,Portland Trail Blazers,total_shots_attempted,6598
+2011-12,Portland Trail Blazers,total_shots_attempted,5417
+2012-13,Portland Trail Blazers,total_shots_attempted,6713
+2013-14,Portland Trail Blazers,total_shots_attempted,7134
+2014-15,Portland Trail Blazers,total_shots_attempted,7046
+2015-16,Portland Trail Blazers,total_shots_attempted,7036
+2016-17,Portland Trail Blazers,total_shots_attempted,7057
+2017-18,Portland Trail Blazers,total_shots_attempted,7132
+2018-19,Portland Trail Blazers,total_shots_attempted,7427
+2019-20,Portland Trail Blazers,total_shots_attempted,6749
+2020-21,Portland Trail Blazers,total_shots_attempted,6558
+2021-22,Portland Trail Blazers,total_shots_attempted,7144
+2022-23,Portland Trail Blazers,total_shots_attempted,7001
+2003-04,Sacramento Kings,total_shots_attempted,6711
+2004-05,Sacramento Kings,total_shots_attempted,6978
+2005-06,Sacramento Kings,total_shots_attempted,6500
+2006-07,Sacramento Kings,total_shots_attempted,6532
+2007-08,Sacramento Kings,total_shots_attempted,6558
+2008-09,Sacramento Kings,total_shots_attempted,6684
+2009-10,Sacramento Kings,total_shots_attempted,6894
+2010-11,Sacramento Kings,total_shots_attempted,6977
+2011-12,Sacramento Kings,total_shots_attempted,5712
+2012-13,Sacramento Kings,total_shots_attempted,6904
+2013-14,Sacramento Kings,total_shots_attempted,6766
+2014-15,Sacramento Kings,total_shots_attempted,6617
+2015-16,Sacramento Kings,total_shots_attempted,7082
+2016-17,Sacramento Kings,total_shots_attempted,6727
+2017-18,Sacramento Kings,total_shots_attempted,7063
+2018-19,Sacramento Kings,total_shots_attempted,7637
+2019-20,Sacramento Kings,total_shots_attempted,6364
+2020-21,Sacramento Kings,total_shots_attempted,6382
+2021-22,Sacramento Kings,total_shots_attempted,7223
+2022-23,Sacramento Kings,total_shots_attempted,7232
+2003-04,San Antonio Spurs,total_shots_attempted,6434
+2004-05,San Antonio Spurs,total_shots_attempted,6450
+2005-06,San Antonio Spurs,total_shots_attempted,6342
+2006-07,San Antonio Spurs,total_shots_attempted,6328
+2007-08,San Antonio Spurs,total_shots_attempted,6424
+2008-09,San Antonio Spurs,total_shots_attempted,6532
+2009-10,San Antonio Spurs,total_shots_attempted,6657
+2010-11,San Antonio Spurs,total_shots_attempted,6626
+2011-12,San Antonio Spurs,total_shots_attempted,5463
+2012-13,San Antonio Spurs,total_shots_attempted,6674
+2013-14,San Antonio Spurs,total_shots_attempted,6843
+2014-15,San Antonio Spurs,total_shots_attempted,6852
+2015-16,San Antonio Spurs,total_shots_attempted,6792
+2016-17,San Antonio Spurs,total_shots_attempted,6862
+2017-18,San Antonio Spurs,total_shots_attempted,6999
+2018-19,San Antonio Spurs,total_shots_attempted,7248
+2019-20,San Antonio Spurs,total_shots_attempted,6350
+2020-21,San Antonio Spurs,total_shots_attempted,6518
+2021-22,San Antonio Spurs,total_shots_attempted,7601
+2022-23,San Antonio Spurs,total_shots_attempted,7593
+2003-04,Seattle SuperSonics,total_shots_attempted,6590
+2004-05,Seattle SuperSonics,total_shots_attempted,6498
+2005-06,Seattle SuperSonics,total_shots_attempted,6711
+2006-07,Seattle SuperSonics,total_shots_attempted,6628
+2007-08,Seattle SuperSonics,total_shots_attempted,7032
+2003-04,Toronto Raptors,total_shots_attempted,6348
+2004-05,Toronto Raptors,total_shots_attempted,6656
+2005-06,Toronto Raptors,total_shots_attempted,6639
+2006-07,Toronto Raptors,total_shots_attempted,6547
+2007-08,Toronto Raptors,total_shots_attempted,6726
+2008-09,Toronto Raptors,total_shots_attempted,6673
+2009-10,Toronto Raptors,total_shots_attempted,6631
+2010-11,Toronto Raptors,total_shots_attempted,6755
+2011-12,Toronto Raptors,total_shots_attempted,5154
+2012-13,Toronto Raptors,total_shots_attempted,6682
+2013-14,Toronto Raptors,total_shots_attempted,6716
+2014-15,Toronto Raptors,total_shots_attempted,6828
+2015-16,Toronto Raptors,total_shots_attempted,6658
+2016-17,Toronto Raptors,total_shots_attempted,6914
+2017-18,Toronto Raptors,total_shots_attempted,7169
+2018-19,Toronto Raptors,total_shots_attempted,7305
+2019-20,Toronto Raptors,total_shots_attempted,6331
+2020-21,Toronto Raptors,total_shots_attempted,6383
+2021-22,Toronto Raptors,total_shots_attempted,7489
+2022-23,Toronto Raptors,total_shots_attempted,7489
+2003-04,Utah Jazz,total_shots_attempted,6172
+2004-05,Utah Jazz,total_shots_attempted,6301
+2005-06,Utah Jazz,total_shots_attempted,6207
+2006-07,Utah Jazz,total_shots_attempted,6471
+2007-08,Utah Jazz,total_shots_attempted,6592
+2008-09,Utah Jazz,total_shots_attempted,6623
+2009-10,Utah Jazz,total_shots_attempted,6575
+2010-11,Utah Jazz,total_shots_attempted,6590
+2011-12,Utah Jazz,total_shots_attempted,5531
+2012-13,Utah Jazz,total_shots_attempted,6710
+2013-14,Utah Jazz,total_shots_attempted,6650
+2014-15,Utah Jazz,total_shots_attempted,6492
+2015-16,Utah Jazz,total_shots_attempted,6593
+2016-17,Utah Jazz,total_shots_attempted,6514
+2017-18,Utah Jazz,total_shots_attempted,6797
+2018-19,Utah Jazz,total_shots_attempted,7082
+2019-20,Utah Jazz,total_shots_attempted,6130
+2020-21,Utah Jazz,total_shots_attempted,6344
+2021-22,Utah Jazz,total_shots_attempted,7067
+2022-23,Utah Jazz,total_shots_attempted,7365
+2003-04,Washington Wizards,total_shots_attempted,6557
+2004-05,Washington Wizards,total_shots_attempted,6794
+2005-06,Washington Wizards,total_shots_attempted,6656
+2006-07,Washington Wizards,total_shots_attempted,6820
+2007-08,Washington Wizards,total_shots_attempted,6695
+2008-09,Washington Wizards,total_shots_attempted,6655
+2009-10,Washington Wizards,total_shots_attempted,6700
+2010-11,Washington Wizards,total_shots_attempted,6888
+2011-12,Washington Wizards,total_shots_attempted,5472
+2012-13,Washington Wizards,total_shots_attempted,6692
+2013-14,Washington Wizards,total_shots_attempted,6918
+2014-15,Washington Wizards,total_shots_attempted,6790
+2015-16,Washington Wizards,total_shots_attempted,7027
+2016-17,Washington Wizards,total_shots_attempted,7129
+2017-18,Washington Wizards,total_shots_attempted,7018
+2018-19,Washington Wizards,total_shots_attempted,7387
+2019-20,Washington Wizards,total_shots_attempted,6544
+2020-21,Washington Wizards,total_shots_attempted,6547
+2021-22,Washington Wizards,total_shots_attempted,7056
+2022-23,Washington Wizards,total_shots_attempted,7127
