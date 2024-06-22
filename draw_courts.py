@@ -6,7 +6,8 @@ import io
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 import plotly.graph_objects as go
 
-shots_df = pd.read_csv("NBA_2004_2023_Shots_2.csv")
+shots_df = pd.read_csv("NBA_2004_2023_Shots_new.csv")
+
 # Load the aggregated shots data for plotly court
 grouped = pd.read_csv('NBA_Team_Zone_Aggregated_Shots_2023.csv')
 

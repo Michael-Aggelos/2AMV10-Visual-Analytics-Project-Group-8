@@ -26,7 +26,7 @@ scatter_df = pd.read_csv('NBA_Teams_with_Conference.csv')
 bar_df = pd.read_csv('barplot_df.csv')
 
 ################## FOR SHOTS ####################
-shots_df = pd.read_csv("NBA_2004_2023_Shots_2.csv")
+shots_df = pd.read_csv("NBA_2004_2023_Shots_new.csv")
 
 player_name_column = 'PLAYER_NAME'
 team_name_column = 'TEAM_NAME'
@@ -294,7 +294,7 @@ def shots_app_team_layout():
                 dbc.Row([
                     dbc.Col(html.Label("Select Season:"), width=3),
                     dbc.Col(dcc.Dropdown(
-                        id='team-season-dropdown'
+                        id='team-season-dropdown',
                     ), width=9)
                 ])
             ], md=6)   ]),
