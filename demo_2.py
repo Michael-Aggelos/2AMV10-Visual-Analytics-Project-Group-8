@@ -1,29 +1,20 @@
 import dash
 from dash import dcc, html, callback_context
-from dash.dependencies import Input, Output, State, ALL, MATCH
+from dash.dependencies import Input, Output, State, ALL
 import dash_bootstrap_components as dbc
-from matplotlib import pyplot as plt
 import numpy as np
 import pandas as pd
-import plotly.graph_objects as go
 import plotly.express as px
 import player_app
 import team_app
 import draw_courts
-import base64
-from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-import io
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
-from PyALE import ale
 from sklearn.ensemble import RandomForestRegressor
-# from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # Load the team CSV file for animated scatter plot
 scatter_df = pd.read_csv('NBA_Teams_with_Conference.csv')
 
-# Create the DataFrame for the bar plot
-bar_df = pd.read_csv('barplot_df.csv')
 
 ################## FOR SHOTS ####################
 shots_df = pd.read_csv("NBA_2004_2023_Shots_new.csv")
@@ -40,9 +31,6 @@ player_id_map = shots_df.set_index(player_name_column)[player_id_column].to_dict
 #Create a dictionary to map team names to IDs
 team_id_map = shots_df.set_index(team_name_column)[team_id_column].to_dict()
 ################## ^^^^^ ####################
-
-# Load the team CSV file for 3pt/2pt ratio
-Ratio_df = pd.read_csv('2-3pt_Ratio_df.csv')
 
 
 field_goals_attempted = pd.read_csv('FGA_Percentage_2023.csv')
@@ -81,6 +69,7 @@ best_rf = grid_search_rf.best_estimator_
 
 # Initialize the main Dash app with a dark theme
 app = dash.Dash(__name__, suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.DARKLY])
+
 
 # options for the user to select which feature to change for the prediction
 options = [
@@ -144,15 +133,13 @@ def render_content(n_clicks_3ptrevolution, n_clicks_extracomparison):
                 ), width=9)
             ],style={'margin': '40px 20px', 'padding': '20px', 'backgroundColor': '#2c3e50', 'borderRadius': '10px'}),
             
-            dbc.Row(dbc.Col(html.H2('NBA Teams --- 3-pt shots --- 3pt/2pt ratio --- Shots Bar plot --- FGA Percentage', className="text-center my-4"), width=12)),
+            dbc.Row(dbc.Col(html.H2('NBA Teams --- 3-pt shots --- FGA Percentage', className="text-center my-4"), width=12)),
 
             dbc.Row([
                 dbc.Col(dcc.RadioItems(
                     id='scatter-selection',
                     options=[
                         {'label': "3-pts Attempts", 'value': '3-pts'},
-                        {'label': "3pt/2pt Ratio", 'value': 'ratio'},
-                        {'label': "Bar Plot", 'value': 'bar-plot'},
                         {'label': "FGA by Shot Type", 'value': 'fga-shot-type'}
                     ],
                     value='3-pts',
@@ -278,7 +265,7 @@ def update_plot_shot(selected_team, selected_season):
 def update_shot_chart(selected_team, selected_season):
     return draw_courts.update_hexshot_chart(selected_team, selected_season)
 
-# layout for the court shots plot
+# layout for the 2 court shots plot
 def shots_app_team_layout():
     return dbc.Container([
         dbc.Row([
@@ -376,7 +363,7 @@ def update_team_season_dropdown_2(selected_team_name):
 def update_team_graph(selected_team_name_1, selected_season_1, selected_team_name_2, selected_season_2):
     return team_app.update_team_graph(selected_team_name_1, selected_season_1, selected_team_name_2, selected_season_2)
 
-# Callback for the four figures,  NBA Teams --- 3-pt shots --- 3pt/2pt ratio --- Shots Bar plot --- FGA Percentage
+# Callback for the four figures,  NBA Teams --- 3-pt shots ---  FGA Percentage
 @app.callback(
     Output("scatter-graph", "figure"), 
     Input("scatter-selection", "value"),
@@ -391,21 +378,7 @@ def display_graph(selection, selected_range):
             filtered_scatter_df, x="total_3pt_attempted", y="total_shots_attempted", color="conference", 
             animation_frame="SEASON_2", animation_group="TEAM_NAME", size="total_3pt_made", hover_data=["TEAM_NAME"],
             range_x=[0,4000], range_y=[4000,8200])
-    elif selection == 'ratio':
-        filtered_ratio_df = Ratio_df[(Ratio_df['SEASON_2'] >= selected_range[0]) & (Ratio_df['SEASON_2'] <= selected_range[1])]
-        fig = px.line(
-            filtered_ratio_df, x="SEASON_2", y="3pt2pt_attempts_ratio", markers=True,
-            labels={'3pt2pt_attempts_ratio': '3pt/2pt Attempts Ratio', 'SEASON_2': 'Season'},
-            title=f'3pt/2pt Attempts Ratio Over Seasons (2004-2023)')
-        fig.update_xaxes(type='category')
-        fig.update_traces(mode='lines+markers', hovertemplate='Season: %{x}<br>Ratio: %{y:.2f}')
-    elif selection == 'bar-plot':
-        filtered_bar_df = bar_df[(bar_df['SEASON_2'] >= selected_range[0]) & (bar_df['SEASON_2'] <= selected_range[1])]
-        fig = px.bar(filtered_bar_df, x="TEAM_NAME", y="Total Shots", color="Shot Type",
-                     barmode='group', animation_frame="SEASON_2",
-                     title="Bar Plot of Total Shots (2pts, 3pts, Total) by Teams Over Seasons")
-        fig.update_xaxes(tickangle=45, tickmode='linear', dtick=1)
-        fig.update_yaxes(range=[0, 8500])
+        
     elif selection == 'fga-shot-type':
         filtered_task1_final_df = field_goals_attempted[(field_goals_attempted['SEASON_2'] >= selected_range[0]) & (field_goals_attempted['SEASON_2'] <= selected_range[1])]
         fig = px.line(filtered_task1_final_df, x='SEASON_2', y='FGA_percentage', color='BASIC_ZONE',
@@ -646,7 +619,7 @@ def update_predicted_offRating(n_clicks, selected_options, input_values, input_i
     # Create a color column where all teams are one color, except 'Users Team'
     teams_average_offensive_rating['color'] = ['User Team' if team == 'User Team' else 'Other Teams' for team in teams_average_offensive_rating['TEAM_NAME']]
 
-    # Create the bar plot
+    # Create the offensive rationg predictive bar plot
     fig = px.bar(teams_average_offensive_rating, x='TEAM_NAME', y='Offensive rating', color='color', 
             color_discrete_map={'User Team': 'red', 'Other Teams': 'blue'},
             title='Teams average offensive rating')
